@@ -1,0 +1,2231 @@
+Package: python3-bloom
+Priority: optional
+Section: python
+Installed-Size: 515
+Maintainer: William Woodall <william@openrobotics.org>
+Architecture: all
+Version: 0.11.2-100
+Depends: python3:any (>= 3.4~), python3-yaml, python3-empy, python3-rosdep (>= 0.15.0), python3-rosdistro (>= 0.8.0), python3-vcstools (>= 0.1.22), python3-setuptools, python3-catkin-pkg (>= 0.4.3)
+Conflicts: python-bloom
+Filename: pool/main/p/python3-bloom/python3-bloom_0.11.2-100_all.deb
+Size: 68996
+MD5sum: 48e6fe43c09f864db86ae1bef70ea309
+SHA1: fd382e4195dfb4cb06c2d47c4b541114231e1f6f
+SHA256: 6b41c57322d6d35730f9e3c3afd929800c22c86e65f1f2ace2bf079e77497878
+SHA512: 58c6dc0cc8fcb81adbe5ac8ab3cbf0b24adfcf609a4bc735db3b57e7b927057bd1c7fb81b6a81df95f1533fad312c5a44672e55b46dd5111ea24481b29a3ed96
+Description: Bloom is a release automation tool.
+ Bloom provides tools for releasing software on top of a git repository and leverages tools and patterns from git-buildpackage. Additionally, bloom leverages meta and build information from catkin (https://github.com/ros/catkin) to automate release branching and the generation of platform specific source packages, like debian's src-debs.
+Homepage: http://www.ros.org/wiki/bloom
+
+Package: python3-bloom
+Priority: optional
+Section: python
+Installed-Size: 514
+Maintainer: William Woodall <william@openrobotics.org>
+Architecture: all
+Version: 0.11.1-100
+Depends: python3:any (>= 3.4~), python3-yaml, python3-empy, python3-rosdep (>= 0.15.0), python3-rosdistro (>= 0.8.0), python3-vcstools (>= 0.1.22), python3-setuptools, python3-catkin-pkg (>= 0.4.3)
+Conflicts: python-bloom
+Filename: pool/main/p/python3-bloom/python3-bloom_0.11.1-100_all.deb
+Size: 69200
+MD5sum: f4439a566912318e019fb736ae8ad054
+SHA1: 35428b44a2f0e01e987f4029a68eb0c51cf83dc3
+SHA256: 1fa3cdca03a26e169372bd9cb52cc131f21af1a7de344fd4d27606d7e22043de
+SHA512: a519c7d182a8a4e4f6f44e5612bbc0d7f7cca4efd46ec4a157b732ef23ef27e112fd56310231bbbb8d6dac304eeea62d0ac3813a94f5c712cd7f212042be3ce9
+Description: Bloom is a release automation tool.
+ Bloom provides tools for releasing software on top of a git repository and leverages tools and patterns from git-buildpackage. Additionally, bloom leverages meta and build information from catkin (https://github.com/ros/catkin) to automate release branching and the generation of platform specific source packages, like debian's src-debs.
+Homepage: http://www.ros.org/wiki/bloom
+
+Package: python3-bloom
+Priority: optional
+Section: python
+Installed-Size: 507
+Maintainer: William Woodall <william@openrobotics.org>
+Architecture: all
+Version: 0.10.7-100
+Depends: python3-catkin-pkg (>= 0.4.3), python3-dateutil, python3-empy, python3-pkg-resources, python3-rosdep (>= 0.15.0), python3-rosdistro (>= 0.8.0), python3-vcstools (>= 0.1.22), python3-yaml, python3:any (>= 3.4~), python3-setuptools
+Conflicts: python-bloom
+Filename: pool/main/p/python3-bloom/python3-bloom_0.10.7-100_all.deb
+Size: 68404
+MD5sum: 57b775321636e445ed90736f660c5719
+SHA1: 6cc8be93ebd2d959c72e2298cbbcdcbd5d895a8c
+SHA256: 99f100ca0a289963f250fa15f9572ff6da4a30e694421839800af0ee17907993
+SHA512: c3ef809c835e6501f0971e891011093f89526f1187d29498b9a7905eed6023ea46742f7c2ddc3752c2a797eccfd2145ce09dd668da19b0ec8dcd026879c2bd47
+Description: Bloom is a release automation tool.
+ Bloom provides tools for releasing software on top of a git repository and leverages tools and patterns from git-buildpackage. Additionally, bloom leverages meta and build information from catkin (https://github.com/ros/catkin) to automate release branching and the generation of platform specific source packages, like debian's src-debs.
+Homepage: http://www.ros.org/wiki/bloom
+
+Package: python3-catkin-pkg
+Priority: optional
+Section: python
+Installed-Size: 26
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 1.0.0-100
+Depends: python3:any (>= 3.6~), python3-catkin-pkg-modules (>= 1.0.0), python3-dateutil, python3-docutils
+Conflicts: catkin, python-catkin-pkg
+Filename: pool/main/p/python3-catkin-pkg/python3-catkin-pkg_1.0.0-100_all.deb
+Size: 3920
+MD5sum: c6ee57fde962060de41361f69f0a394c
+SHA1: 012538d8985466141b1112e8bb8748ea8bdd7599
+SHA256: df38f24e396c6664f2759fb4b9bd18e9c7a61e2b35450e787807a28ef3be5b91
+SHA512: c0c1757cec7c91939dcd4496f128b1fbd1dbb92a72239c342e5818d93deade2355a035ca428d83c3ab5042d5057195bcc423e5e54bacd4c637477271e76c7ee2
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+Homepage: http://wiki.ros.org/catkin_pkg
+
+Package: python3-catkin-pkg
+Priority: optional
+Section: python
+Installed-Size: 26
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.5.2-100
+Depends: python3-dateutil, python3-docutils, python3-pkg-resources, python3-pyparsing, python3:any (>= 3.4~), python3-catkin-pkg-modules (>= 0.5.2)
+Conflicts: catkin, python-catkin-pkg
+Filename: pool/main/p/python3-catkin-pkg/python3-catkin-pkg_0.5.2-100_all.deb
+Size: 3840
+MD5sum: a03a1bbe6cf1a13092c2a6002bb42d3a
+SHA1: 52119349fb5835dd103e7a8ad22a8ffb1b5465b7
+SHA256: 89dbe81478351350a0eff26dea435a797253e38915c6bb6b1bfc2fdeb5f9caf8
+SHA512: f45de027a80f498434458f49602d439a5efd381a325639e5491a4ac0bacbc3c7c684fb0a214d0fd0158b87c50e82e880b70e272ca7985f18883b1678d4e91e89
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+Homepage: http://wiki.ros.org/catkin_pkg
+
+Package: python3-catkin-pkg
+Priority: optional
+Section: python
+Installed-Size: 26
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.5.1-100
+Depends: python3-dateutil, python3-docutils, python3-pkg-resources, python3-pyparsing, python3:any (>= 3.4~), python3-catkin-pkg-modules (>= 0.5.1)
+Conflicts: catkin, python-catkin-pkg
+Filename: pool/main/p/python3-catkin-pkg/python3-catkin-pkg_0.5.1-100_all.deb
+Size: 3836
+MD5sum: 055a17a4d7f9615498d0a0fbf11090c7
+SHA1: de05b0bc94e75f26e17cfa0560b607301f758dff
+SHA256: 3c431ef829715732f65270ef8c44a19f89161307384c8154381537ea56c84a59
+SHA512: 5d3ddd69ddba46647dc34c397511206978a469a2e22fdd7d390102cf900b201261d8177ee3479c0fe52f26cafda4b159beb121081642c2ceb9083f7e23ec9e88
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+Homepage: http://wiki.ros.org/catkin_pkg
+
+Package: python3-catkin-pkg
+Priority: optional
+Section: python
+Installed-Size: 26
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.5.0-100
+Depends: python3-dateutil, python3-docutils, python3-pkg-resources, python3-pyparsing, python3:any (>= 3.4~), python3-catkin-pkg-modules (>= 0.5.0)
+Conflicts: catkin, python-catkin-pkg
+Filename: pool/main/p/python3-catkin-pkg/python3-catkin-pkg_0.5.0-100_all.deb
+Size: 3832
+MD5sum: 0cc7d7735f43361821a4e500465947f3
+SHA1: abe64a53e587c6a83540f7e46454f3ff30faad3c
+SHA256: b5d409c9188d7ac03ae27d6146e9d73bd2a8605a602d5131be49ac9ca38915b0
+SHA512: 598241abf16350add3f4991fb13660be5b7463dff03854123e1bd97cc21b8c43567ec4e587e18c4dc9264cf6cfbae7748052344be9945799c969bcf733059b71
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+Homepage: http://wiki.ros.org/catkin_pkg
+
+Package: python3-catkin-pkg
+Priority: optional
+Section: python
+Installed-Size: 25
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.4.24-100
+Depends: python3-dateutil, python3-docutils, python3-pyparsing, python3:any (>= 3.4~), python3-catkin-pkg-modules (>= 0.4.24)
+Conflicts: catkin, python-catkin-pkg
+Filename: pool/main/p/python3-catkin-pkg/python3-catkin-pkg_0.4.24-100_all.deb
+Size: 3728
+MD5sum: 98c9ce56cc3bcc13a62db80ebf668dcb
+SHA1: 5820c1303e8af57cf6c3fe5083703086625b0640
+SHA256: c47048db6beb9e46d54039cb9b100f5687dfd103dbb73f7f1948493c85e5778f
+SHA512: b3ca8f3e5001b774628577009888ea199c11e7aa33c4c2d2c02fd9f8a939c8f564a9308ddddad0151f42ca700c2e24b44f76953c6fbcc0e262fce1fd494102fc
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+Homepage: http://wiki.ros.org/catkin_pkg
+
+Package: python3-catkin-pkg-modules
+Priority: optional
+Section: python
+Installed-Size: 252
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 1.0.0-1
+Replaces: python3-catkin-pkg (<< 0.3.0)
+Depends: python3:any (>= 3.6~), python3-dateutil, python3-docutils, python3-pyparsing
+Conflicts: catkin, python3-catkin-pkg (<< 0.3.0)
+Filename: pool/main/p/python3-catkin-pkg-modules/python3-catkin-pkg-modules_1.0.0-1_all.deb
+Size: 43200
+MD5sum: 641e147ddf41a4f138e57f526a63709f
+SHA1: eda57e4ba03c098e782d5e47f0bbdbedff7baef3
+SHA256: 303148fbacb632aba1335677d2c26c2e7cc89b6001e689bdca1024de2f9e6b32
+SHA512: 1e8481f1b9485f002a9c96cc0c084de0d5fe9944343576f1ad97cbbe7838c6fa702c6bab5b0ee8805f33f2327741536288bce03c4a8e2bd9beab6e7cdd0bfe7e
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+Homepage: http://wiki.ros.org/catkin_pkg
+
+Package: python3-catkin-pkg-modules
+Priority: optional
+Section: python
+Installed-Size: 252
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.5.2-1
+Replaces: python3-catkin-pkg (<< 0.3.0)
+Depends: python3-dateutil, python3-docutils, python3-pkg-resources, python3-pyparsing, python3:any (>= 3.4~)
+Conflicts: catkin, python3-catkin-pkg (<< 0.3.0)
+Filename: pool/main/p/python3-catkin-pkg-modules/python3-catkin-pkg-modules_0.5.2-1_all.deb
+Size: 43192
+MD5sum: 2e65d9c71800b8a6476f01a5ea0a6a86
+SHA1: f82a8968a0b8e2a6dddb5408b153bdf7cd4d5b08
+SHA256: d6500aea4c142ac1755d7608fe1c74104f5c268dbf7b52ed3dd75d164a957fa0
+SHA512: db43578e698f36da242d1d74394ff6532257f5954f84f80fc7f4ef697251d92a94c590fdd8769393de6f12e1c9cd606804a9d2ce8402d591d9571aed8fce2b7f
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+Homepage: http://wiki.ros.org/catkin_pkg
+
+Package: python3-catkin-pkg-modules
+Priority: optional
+Section: python
+Installed-Size: 252
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.5.1-1
+Replaces: python3-catkin-pkg (<< 0.3.0)
+Depends: python3-dateutil, python3-docutils, python3-pkg-resources, python3-pyparsing, python3:any (>= 3.4~)
+Conflicts: catkin, python3-catkin-pkg (<< 0.3.0)
+Filename: pool/main/p/python3-catkin-pkg-modules/python3-catkin-pkg-modules_0.5.1-1_all.deb
+Size: 43168
+MD5sum: 36fdb4de967526ae96b30ef8136898af
+SHA1: d7bf1eaa261330701e25afc704060e1d6e384f4c
+SHA256: 9f55d4fa926ba39e1692c6604b21673e9f57144811245bc659422373cd9da9b6
+SHA512: 0c38d847ada4d11a79d0591bb487715227956019dd07b2492fc619044504a9a50ef9d38beceb3228f9d23babf2370b1593a768cd2ac5abb85969f18172241a85
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+Homepage: http://wiki.ros.org/catkin_pkg
+
+Package: python3-catkin-pkg-modules
+Priority: optional
+Section: python
+Installed-Size: 252
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.5.0-1
+Replaces: python3-catkin-pkg (<< 0.3.0)
+Depends: python3-dateutil, python3-docutils, python3-pkg-resources, python3-pyparsing, python3:any (>= 3.4~)
+Conflicts: catkin, python3-catkin-pkg (<< 0.3.0)
+Filename: pool/main/p/python3-catkin-pkg-modules/python3-catkin-pkg-modules_0.5.0-1_all.deb
+Size: 43112
+MD5sum: c39ce26bb059ff222ee8906dc05194a3
+SHA1: 8f734510fe37c9527dd57fe3223a020ed061d1b7
+SHA256: 898cdec13a826959d4de552f78357c9185868bb364a39cbc9d8367c692fe43c9
+SHA512: 54cc9522be841839af882de36572162c69c7ec2965089f0dfc4e677a02bab07eda7c8f5f418ca4c9b419cfb4932b4eec19fe36db01cd8311f5e6136738df374c
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+Homepage: http://wiki.ros.org/catkin_pkg
+
+Package: python3-catkin-pkg-modules
+Priority: optional
+Section: python
+Installed-Size: 248
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.4.24-1
+Replaces: python3-catkin-pkg (<< 0.3.0)
+Depends: python3-dateutil, python3-docutils, python3-pyparsing, python3:any (>= 3.4~)
+Conflicts: catkin, python3-catkin-pkg (<< 0.3.0)
+Filename: pool/main/p/python3-catkin-pkg-modules/python3-catkin-pkg-modules_0.4.24-1_all.deb
+Size: 42356
+MD5sum: 4972e51cacef257f9885cdc28e87918d
+SHA1: 3683696718f5ac8f15f87878194754b485eca4de
+SHA256: b1bba26d82a45163b1d32ebcdddf0e4808df4feffccef4ee28b9c28f24c4fc02
+SHA512: ff938c83af00a8bd2e7688a12084e62f372a168617d301a40851e6467309caea4b73a37b2ec7888eac67bb025615571898f26aed3c01503baa7307184ed41c24
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+Homepage: http://wiki.ros.org/catkin_pkg
+
+Package: python3-colcon-alias
+Priority: optional
+Section: python
+Installed-Size: 37
+Maintainer: Scott K Logan <logans@cottsay.net>
+Architecture: all
+Version: 0.1.0-1
+Depends: python3:any (>= 3.6~), python3-colcon-core, python3-filelock, python3-yaml
+Conflicts: python3-colcon-mixin (<= 0.2.2)
+Filename: pool/main/p/python3-colcon-alias/python3-colcon-alias_0.1.0-1_all.deb
+Size: 6396
+MD5sum: 8be579958b186b1adf0df579ad4f63a6
+SHA1: b07b229ddd673a48c998129bc77ca7ca0a175d1a
+SHA256: 9f34497549180aaae4b323bd63e0a339d0113d97c9a73951e95daa1b8320caaa
+SHA512: 8fef4966b99c19097e6a842ba2e3257f72c9342ccfe4d073e858f9d0afe5a11511bf0aaf284a996e8eb37977d91b04f217ffa299001a7daee43154077834bba1
+Description: Extension for colcon to create and modify command aliases.
+ colcon-alias
+ ============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to create and modify command aliases.
+ .
+ Aliases condense any number of colcon command invocations made up of a verb followed by all associated arguments down to another 'alias' verb. When invoking the alias verb, additional arguments can be appended to the original invocations.
+ .
+ An example alias called 'bat', short for 'build and test'::
+ .
+     $ colcon alias bat --command build --command test
+     Registered command list for alias 'bat':
+       build
+       test
+     $ colcon bat --packages-select colcon-alias
+     Running command alias: colcon build --packages-select colcon-alias
+     ...
+     Running command alias: colcon test --packages-select colcon-alias
+     ...
+ .
+ Another example, an alias for building specific packages::
+Homepage: https://github.com/colcon/colcon-alias/
+
+Package: python3-colcon-argcomplete
+Priority: optional
+Section: python
+Installed-Size: 39
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.3.3-1
+Depends: python3-argcomplete, python3:any (>= 3.5~), python3-colcon-core
+Filename: pool/main/p/python3-colcon-argcomplete/python3-colcon-argcomplete_0.3.3-1_all.deb
+Size: 5452
+MD5sum: a1097dd463e897b2f36f20f8c4a9c992
+SHA1: aecb362dd036988bd8b0d763423c90b4a4d2229f
+SHA256: a65387c5583857f43facc1d19a6efe9c89c103eb33e0d6efcdc4ec82f41ecef0
+SHA512: d22e0033e5ddc28b68674a70638d2052828e6c3a2b8c9753473e379a7b86326da7969113313df97f84fc35b1584aac464ba0851bea4d8c2a37da14aff5f6268b
+Description: Completion for colcon command lines using argcomplete.
+ colcon-argcomplete
+ ==================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide command line completion using `argcomplete <https://github.com/kislyuk/argcomplete>`_.
+
+Package: python3-colcon-bash
+Priority: optional
+Section: python
+Installed-Size: 37
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.5.0-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.12.0)
+Filename: pool/main/p/python3-colcon-bash/python3-colcon-bash_0.5.0-1_all.deb
+Size: 5616
+MD5sum: 3c01b471298cbf260ff59658f750d2a8
+SHA1: 643c87f12a9ed71ff3fb04290c9b1dafb19efa53
+SHA256: 363c062590b953ce62711dd3253eb919bf90777ec86ebd544b42b6a3a55aee0e
+SHA512: 6c96725f1d086ed377f77b2b08c7a21822fd3f14fb34d8fac329f28b2e6561e016929ce0581f7e68b5f9e4286516299062996167c88de8d65d538c89dbcc1620
+Description: Extension for colcon to provide Bash scripts.
+ colcon-bash
+ ===========
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide `Bash <https://www.gnu.org/software/bash/>`_ scripts.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-bash
+Priority: optional
+Section: python
+Installed-Size: 37
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.4.2-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.3.18)
+Filename: pool/main/p/python3-colcon-bash/python3-colcon-bash_0.4.2-1_all.deb
+Size: 5356
+MD5sum: d4f37d028d6da3c1c71203f1744fa43f
+SHA1: bcddafa7f79fd2640380c1a4a907d4b4c386e4c9
+SHA256: c299b85e4a10f40c4cfdeba11aab6f73a8d66ccef71c49c81dd581b36dc779b6
+SHA512: 5a9dffc667a62d834189a67a2b92fdbbba7835bc4a7d67d7b901e3590e919cd2767eee444957d35ccb0b17efba5110c5b7dabdafc25b3a9f4d10f3e02aa5c182
+Description: Extension for colcon to provide Bash scripts.
+ colcon-bash
+ ===========
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide `Bash <https://www.gnu.org/software/bash/>`_ scripts.
+
+Package: python3-colcon-bazel
+Priority: optional
+Section: python
+Installed-Size: 48
+Maintainer: Mickael Gaillard <mick.gaillard@gmail.com>
+Architecture: all
+Version: 0.1.0-2
+Depends: python3-pyparsing, python3:any (>= 3.5~), python3-colcon-core, python3-colcon-library-path
+Filename: pool/main/p/python3-colcon-bazel/python3-colcon-bazel_0.1.0-2_all.deb
+Size: 7988
+MD5sum: 28f4f0f085058b691515cbd8a6734595
+SHA1: 102d91771b94c3b3e41e0d931d698cf5290be0da
+SHA256: b6b22c20e135d8ef6d35a017bb49656742e4bb908207e8c9fdf74ff10514f800
+SHA512: 6a49b20fc93dfb65c07b26e2f5b4aeb65f8d33183e9e0da5be33cbe16a629af008587cbe748123e6a87791fd5ce4d3a90d10d3a28af53b54e2240df46ce41754
+Description: Extension for colcon to support Bazel packages.
+ colcon-bazel
+ =============
+ .
+ [![Travis CI](https://travis-ci.org/colcon/colcon-bazel.svg?branch=master)](https://travis-ci.org/colcon/colcon-bazel)
+ [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/colcon/colcon-bazel?svg=true&branch=master)](https://ci.appveyor.com/project/Theosakamg/colcon-bazel)
+ [![codecov](https://codecov.io/gh/colcon/colcon-bazel/branch/master/graph/badge.svg)](https://codecov.io/gh/colcon/colcon-bazel)
+ [![PyPI version](https://img.shields.io/pypi/v/colcon_bazel.svg)](https://pypi.python.org/pypi/colcon_bazel/)
+ .
+ An extension for [colcon-core](https://github.com/colcon/colcon-core) to support [Bazel](https://bazel.build) projects.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-bazel
+Priority: optional
+Section: python
+Installed-Size: 48
+Maintainer: Mickael Gaillard <mick.gaillard@gmail.com>
+Architecture: all
+Version: 0.1.0-1
+Depends: python3-pyparsing, python3:any (>= 3.5~), python3-colcon-core, python3-colcon-library-path
+Filename: pool/main/p/python3-colcon-bazel/python3-colcon-bazel_0.1.0-1_all.deb
+Size: 7988
+MD5sum: 74466aa4ab74e462d640fe53201abb8a
+SHA1: 3a875ee7281a98792fb00aa6b8975b836f94831a
+SHA256: cb7ed972365d5806251a3c9d540d1a59b76b4688a5cc769eec06ad15e1585dda
+SHA512: 104a95ab3e3d4173f619f38285bc205f983b493d083e7e4341c7d6716cd3fb7a9d48d5035705e5dea84f0bd6f168602b78235c9ab9d459c311d20d192c1d138d
+Description: Extension for colcon to support Bazel packages.
+ colcon-bazel
+ =============
+ .
+ [![Travis CI](https://travis-ci.org/colcon/colcon-bazel.svg?branch=master)](https://travis-ci.org/colcon/colcon-bazel)
+ [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/colcon/colcon-bazel?svg=true&branch=master)](https://ci.appveyor.com/project/Theosakamg/colcon-bazel)
+ [![codecov](https://codecov.io/gh/colcon/colcon-bazel/branch/master/graph/badge.svg)](https://codecov.io/gh/colcon/colcon-bazel)
+ [![PyPI version](https://img.shields.io/pypi/v/colcon_bazel.svg)](https://pypi.python.org/pypi/colcon_bazel/)
+ .
+ An extension for [colcon-core](https://github.com/colcon/colcon-core) to support [Bazel](https://bazel.build) projects.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-cd
+Priority: optional
+Section: python
+Installed-Size: 29
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.1.1-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.4.1), python3-colcon-package-information
+Filename: pool/main/p/python3-colcon-cd/python3-colcon-cd_0.1.1-1_all.deb
+Size: 3784
+MD5sum: 2c4edd786e71754b6f0c4f78162b8bca
+SHA1: 971e871df2699009db30ce98bafeacf611bd026e
+SHA256: dab03b4e9f4ada7a7f4cbbfff5126071bdaffa7d583a4f74c5bae0872296e100
+SHA512: a7409d6a93f51102279575e8e93bbc706fe97565cc16bd170d4a2b9caed9670d03a8db5793b0855e233f1decf0f312edf94746d6e7587e3c50f5ceebbc7abb0f
+Description: A shell function for colcon to change the current working di
+ colcon-cd
+ =========
+ .
+ A shell function for `colcon-core <https://github.com/colcon/colcon-core>`_ to change the current working directory.
+
+Package: python3-colcon-clean
+Priority: optional
+Section: python
+Installed-Size: 58
+Maintainer: Ruffin White <roxfoxpox@gmail.com>
+Architecture: all
+Version: 0.2.0-1
+Depends: python3-colcon-core (>= 0.5.2), python3-scantree, python3:any (>= 3.6~)
+Filename: pool/main/p/python3-colcon-clean/python3-colcon-clean_0.2.0-1_all.deb
+Size: 9898
+MD5sum: 6a5b6866e73ab148de56ecdcd8754218
+SHA1: cb67e7382247e8c71121e23d840dff715b9a9e6c
+SHA256: a30420cbbf2df7abdda4c94615a9dd65f0e472122d224f9906d390f694b5c3c4
+SHA512: 0d473d515b56e4570c8c988d0320b13227b5d48e4e0c6285571b1103b6db87ae39d945ccd1dcca401a8ce785d23276d04ff26d72a2526fe4af45bde796f5795e
+Description: Extension for colcon to clean package workspaces.
+ # colcon-clean
+ .
+ [![GitHub Workflow Status](https://github.com/ruffsl/colcon-clean/actions/workflows/ci.yaml/badge.svg?branch=master&event=push)](https://github.com/ruffsl/colcon-clean/actions/workflows/ci.yaml?query=branch%3Amaster+event%3Apush)
+ [![Codecov](https://codecov.io/gh/ruffsl/colcon-clean/branch/master/graph/badge.svg)](https://codecov.io/gh/ruffsl/colcon-clean)
+ .
+ An extension for [colcon-core](https://github.com/colcon/colcon-core) to clean package workspaces. Enables cleaning of various colcon paths, such as build or install folders, for either the entire workspace or for selected packages with advanced path globing options. In conjunction with [colcon-package-selection](https://github.com/colcon/colcon-package-selection), this extension can help maintain hygienic build environments while leveraging persistent workspaces for caching by allowing users to finely remove stale artifacts, preserving what can be cached during software development. For example, when pulling various changes into a local workspace to review pull requests, this extension can be used to wipe only the build and install paths for affected packages, ensuring subsequent builds are not cross contaminated from previous jobs.
+ .
+ The extension works by providing a convenient wrapper around filesystem deletion, allowing users to specify at which base paths to be cleaned (`build`, `install`, `log`, `test_result`), at what level cleaning should take place (global workspace or per package), and if specified what exact files should (or should not) be removed.
+ .
+ .
+ ## Quick start
+ .
+ Setup, build and test an example colcon workspace:
+ ```
+ mkdir -p ~/ws/src && cd ~/ws
+ wget https://raw.githubusercontent.com/colcon/colcon.readthedocs.org/main/colcon.repos
+ vcs import src < colcon.repos
+ colcon build
+ colcon test
+ ```
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-cmake
+Priority: optional
+Section: python
+Installed-Size: 86
+Maintainer: Dirk Thomas, Michel Hidalgo <web@dirk-thomas.net, michel@ekumenlabs.com>
+Architecture: all
+Version: 0.2.28-1
+Depends: python3:any (>= 3.6~), cmake, python3-colcon-core (>= 0.5.6), python3-colcon-library-path, python3-colcon-test-result (>= 0.3.3), python3-packaging
+Filename: pool/main/p/python3-colcon-cmake/python3-colcon-cmake_0.2.28-1_all.deb
+Size: 15236
+MD5sum: 23a2455779112d5c6738544d2017a6aa
+SHA1: d454570c6a1e754a69c14820342de13626a0ce95
+SHA256: 352804b30db8862835fded74a4af8c9b9c322358bd03f7ffa8c214bd980b06e3
+SHA512: f2abca893c549ade5a133b71fb0b2f245c73f5c411e011838fd20e02aca17b133e0bf0683cf925cf2826748fc780d8a1c652a3f9763ea57628a78e3c4f56c4f2
+Description: Extension for colcon to support CMake packages.
+ colcon-cmake
+ ============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to support `CMake <https://cmake.org>`_ projects.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-cmake
+Priority: optional
+Section: python
+Installed-Size: 86
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.26-2
+Depends: python3:any (>= 3.5~), cmake, python3-colcon-core (>= 0.5.6), python3-colcon-library-path, python3-colcon-test-result (>= 0.3.3)
+Filename: pool/main/p/python3-colcon-cmake/python3-colcon-cmake_0.2.26-2_all.deb
+Size: 14856
+MD5sum: ebf0a099940065d01cc8e207a0063558
+SHA1: a5c9d1c15e913d27591bee28a9d7df0f51bebb5c
+SHA256: b0261f11b4e959676fddd79fb441a13c962bc9a6dfcf72aed8011cdad6084544
+SHA512: 9efce0d595118297620e519d88be83b42e3f7ed12ced118ddda6a45390e92b299bde44adbf4265b8e32f200ee720cfa9ef7858acb3d3f165bdbf3ff31aaa58d3
+Description: Extension for colcon to support CMake packages.
+ colcon-cmake
+ ============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to support `CMake <https://cmake.org>`_ projects.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-common-extensions
+Priority: optional
+Section: python
+Installed-Size: 21
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.3.0-1
+Depends: python3-colcon-cmake, python3-colcon-core, python3-colcon-defaults, python3-colcon-devtools, python3-colcon-library-path, python3-colcon-metadata, python3-colcon-notification, python3-colcon-output, python3-colcon-package-information, python3-colcon-package-selection, python3-colcon-parallel-executor, python3-colcon-powershell, python3-colcon-python-setup-py, python3-colcon-recursive-crawl, python3-colcon-ros, python3-colcon-test-result, python3:any (>= 3.5~), python3-colcon-argcomplete, python3-colcon-bash, python3-colcon-cd, python3-colcon-zsh
+Recommends: python3-colcon-override-check
+Filename: pool/main/p/python3-colcon-common-extensions/python3-colcon-common-extensions_0.3.0-1_all.deb
+Size: 2824
+MD5sum: 1cd49c9eeeab6cdb45a26a710fcbcd3e
+SHA1: ce9638fdef0b78ffbf7afdcada4382d403a03b2f
+SHA256: 005c0094e23a1c6c77b6f77fa287b8cf310ebe3d3b03fd913ed4066ab8820ce2
+SHA512: 5656884a222edb9badd3903cb4801f92fcd16457db6bceb14d3b560244d68e33353890b9e9bccad3cdf231d96e2cf64c8647b3faf09a2d0ab56406ef2704e892
+Description: Meta package aggregating colcon-core and common extensions.
+ colcon-common-extensions
+ ========================
+ .
+ A meta package aggregating `colcon-core <https://github.com/colcon/colcon-core>`_ as well as a set of common extensions.
+
+Package: python3-colcon-common-extensions
+Priority: optional
+Section: python
+Installed-Size: 21
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.1-1
+Depends: python3:any (>= 3.5~), python3-colcon-argcomplete, python3-colcon-bash, python3-colcon-cd, python3-colcon-cmake, python3-colcon-core, python3-colcon-defaults, python3-colcon-devtools, python3-colcon-library-path, python3-colcon-metadata, python3-colcon-notification, python3-colcon-output, python3-colcon-package-information, python3-colcon-package-selection, python3-colcon-parallel-executor, python3-colcon-powershell, python3-colcon-python-setup-py, python3-colcon-recursive-crawl, python3-colcon-ros, python3-colcon-test-result, python3-colcon-zsh
+Filename: pool/main/p/python3-colcon-common-extensions/python3-colcon-common-extensions_0.2.1-1_all.deb
+Size: 2880
+MD5sum: 1b0c6da8f90636f027b4ed35e0c190f1
+SHA1: 7be55cbd7aa548d61a032bb0aa869d23d1f4bf13
+SHA256: 52e111b0f3dfe2d225a616c59a4ab588292dc585c0e543daa0a1f222bd381ac9
+SHA512: a62a1cf90c4fe5927b1c53231de83d752f9541a47f2bdeeeea5adc2b467264332f1bce3472347f7f9d7c115f8e0d938d5b7fa0585a4220f3bc895cb82ad5a064
+Description: Meta package aggregating colcon-core and common extensions.
+ colcon-common-extensions
+ ========================
+ .
+ A meta package aggregating `colcon-core <https://github.com/colcon/colcon-core>`_ as well as a set of common extensions.
+
+Package: python3-colcon-core
+Priority: optional
+Section: python
+Installed-Size: 436
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.15.2-1
+Depends: python3:any (>= 3.6~), python3-distlib, python3-empy (<= 4), python3-packaging, python3-pytest, python3-setuptools, python3 (>= 3.8) | python3-importlib-metadata
+Recommends: python3-pytest-cov
+Suggests: python3-pytest-repeat, python3-pytest-rerunfailures
+Filename: pool/main/p/python3-colcon-core/python3-colcon-core_0.15.2-1_all.deb
+Size: 65496
+MD5sum: 6b05f8360527138d7f0ad2a3f534eeb2
+SHA1: c740f9bdce0d3fd9adc5c01fc498b9d0cd69226d
+SHA256: 7f88b10a3aadbf3c531350329c909cd9bef6b976515c255f3534e83cb8a14dc4
+SHA512: 26e4031d1ea2801b01fcf9666776a35ecd505a830d39b5f19b9ccc678e52aec8d96121fd5906911e85245ec9fd6720da7cefad77f163a2053f5ab28ea8f8dd12
+Description: Command line tool to build sets of software packages.
+ colcon - collective construction
+ ================================
+ .
+ ``colcon`` is a command line tool to improve the workflow of building, testing and using multiple software packages.
+ It automates the process, handles the ordering and sets up the environment to use the packages.
+ .
+ For more information see `colcon.readthedocs.io <https://colcon.readthedocs.io>`_.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-core
+Priority: optional
+Section: python
+Installed-Size: 436
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.15.1-1
+Depends: python3:any (>= 3.6~), python3-distlib, python3-empy (<= 4), python3-packaging, python3-pytest, python3-setuptools, python3 (>= 3.8) | python3-importlib-metadata
+Recommends: python3-pytest-cov
+Suggests: python3-pytest-repeat, python3-pytest-rerunfailures
+Filename: pool/main/p/python3-colcon-core/python3-colcon-core_0.15.1-1_all.deb
+Size: 65476
+MD5sum: ff3503a32fdb42311e4c804fe5f018ea
+SHA1: b49f2f8d8adc282096f2aac98120fbc7a15d30a7
+SHA256: 3103ad6cd8ed02f09a0f38732bb486624b5eafd063f623c5da6cc211d082e20a
+SHA512: 01a3bdc14a778299d6a3fe4554ea6b24c878eb957c03a1ba27ee5d37eb51929eac8e3f3a928ba764afd74ec30ef71011a65f938064e7e0d7d2653d78b3551318
+Description: Command line tool to build sets of software packages.
+ colcon - collective construction
+ ================================
+ .
+ ``colcon`` is a command line tool to improve the workflow of building, testing and using multiple software packages.
+ It automates the process, handles the ordering and sets up the environment to use the packages.
+ .
+ For more information see `colcon.readthedocs.io <https://colcon.readthedocs.io>`_.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-core
+Priority: optional
+Section: python
+Installed-Size: 436
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.15.0-1
+Depends: python3:any (>= 3.6~), python3-distlib, python3-empy, python3-packaging, python3-pytest, python3-setuptools, python3 (>= 3.8) | python3-importlib-metadata
+Recommends: python3-pytest-cov
+Suggests: python3-pytest-repeat, python3-pytest-rerunfailures
+Filename: pool/main/p/python3-colcon-core/python3-colcon-core_0.15.0-1_all.deb
+Size: 65468
+MD5sum: 13ef9a2006f7c5bf70470bf2b7ec0078
+SHA1: d2a2832a390f643ac6bf6a939f9d8cdb3c9183a6
+SHA256: 3b14c48d817f2e422205de288ad5f9cae697bb006739c43ed90ce0c763c1f88e
+SHA512: b57b765a3616ee9bf6580c151157c3c3e15bd33b2b331813c4b0749fd5a4f1ffb19ffb95c4ff0545bcade9096fd2900c04149c77606b31d46551bc20fc285373
+Description: Command line tool to build sets of software packages.
+ colcon - collective construction
+ ================================
+ .
+ ``colcon`` is a command line tool to improve the workflow of building, testing and using multiple software packages.
+ It automates the process, handles the ordering and sets up the environment to use the packages.
+ .
+ For more information see `colcon.readthedocs.io <https://colcon.readthedocs.io>`_.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-core
+Priority: optional
+Section: python
+Installed-Size: 395
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.6.1-2
+Depends: python3-distlib, python3-empy, python3-pkg-resources, python3-pytest, python3-pytest-cov, python3:any (>= 3.5~), python3-setuptools
+Filename: pool/main/p/python3-colcon-core/python3-colcon-core_0.6.1-2_all.deb
+Size: 59628
+MD5sum: 43f1bf45854de4ace98120dfe211c0bf
+SHA1: 9caf6d7a587c263546d96c9b64ff642f1e75f61a
+SHA256: 57d482d1a0c4a630269dfa547ed56bff0a1f6412eb55c8f78b660b7951dbb151
+SHA512: c19ba20fe1c2c978c9772cf0eebf5f07863bda0c429c8316eadd53e3c51056adba57f96656f44666b2db7fea7fefdf75dfa364b4abba791ba676a02178e4b472
+Description: Command line tool to build sets of software packages.
+ colcon - collective construction
+ ================================
+ .
+ ``colcon`` is a command line tool to improve the workflow of building, testing and using multiple software packages.
+ It automates the process, handles the ordering and sets up the environment to use the packages.
+ .
+ For more information see `colcon.readthedocs.io <https://colcon.readthedocs.io>`_.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-coveragepy-result
+Priority: optional
+Section: python
+Installed-Size: 41
+Maintainer: Christophe Bedard <bedard.christophe@gmail.com>
+Architecture: all
+Version: 0.0.8-1
+Depends: python3-coverage, python3:any (>= 3.5~), python3-colcon-core
+Filename: pool/main/p/python3-colcon-coveragepy-result/python3-colcon-coveragepy-result_0.0.8-1_all.deb
+Size: 6464
+MD5sum: 55bc1e50494e5dd458f1115c44464c87
+SHA1: 529d435bef5666cbae005bef51325bd4c1929e79
+SHA256: fb2b4e9002e429c3ced08f621ed705a0ce7167ad0c823ebf30f7dc17e97d7ca3
+SHA512: 24da73fe1c45f69550a359d2ff0ac194e47c7cbc666669cbff5e12595889fb98794539448cf59cc1a4191fdfcc1b49a61c41a1e5c5176d38a754779e4a55865f
+Description: colcon extension for collecting coverage.py results
+ # colcon-coveragepy-result
+ .
+ [![PyPI](https://img.shields.io/pypi/v/colcon-coveragepy-result)](https://pypi.org/project/colcon-coveragepy-result/)
+ [![GitHub Action Status](https://github.com/colcon/colcon-coveragepy-result/workflows/Test/badge.svg)](https://github.com/colcon/colcon-coveragepy-result/actions)
+ .
+ A [colcon](https://colcon.readthedocs.io/) extension for collecting [coverage.py](https://coverage.readthedocs.io/en/stable/) results.
+ .
+ ## Usage
+ .
+ 1. Build packages with coverage, e.g. using a [colcon mixin](https://colcon.readthedocs.io/en/released/reference/verb/mixin.html) for [coverage](https://github.com/colcon/colcon-mixin-repository/blob/master/coverage.mixin)
+    ```shell
+    $ colcon build --mixin coverage-pytest
+    ```
+ 1. Test packages with coverage, again using a mixin
+    ```shell
+    $ colcon test --mixin coverage-pytest
+    ```
+ 1. Collect coverage results
+    ```shell
+    $ colcon coveragepy-result
+
+Package: python3-colcon-defaults
+Priority: optional
+Section: python
+Installed-Size: 34
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.8-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.12.0), python3-yaml
+Filename: pool/main/p/python3-colcon-defaults/python3-colcon-defaults_0.2.8-1_all.deb
+Size: 5744
+MD5sum: ff80d6e18cda9e49ee822a80fa1a448c
+SHA1: bee5a4115d1e2d50b8c28dbc2fde3222d2a1c742
+SHA256: 28eb6bf5f03087c7d716c619a55aa49db33f0742105fedb8984c6df0e7682f1d
+SHA512: 874f205ac244fb1cf017ab6cfb56030c225dd5afd50dc5ab25246eac51549ed402b74ae1a8b8caabd3b7c8c9944993656add48a6c37d7d73116505faee4f65e0
+Description: Extension for colcon to read defaults from a config file.
+ colcon-defaults
+ ===============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide custom default values for the command line arguments from a configuration file.
+ .
+ For more information about the format of the configuration file see `colcon.readthedocs.io <http://colcon.readthedocs.io/en/released/user/configuration.html#defaults-yaml>`_.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-defaults
+Priority: optional
+Section: python
+Installed-Size: 32
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.5-1
+Depends: python3-yaml, python3:any (>= 3.5~), python3-colcon-core (>= 0.5.5)
+Filename: pool/main/p/python3-colcon-defaults/python3-colcon-defaults_0.2.5-1_all.deb
+Size: 5232
+MD5sum: 60f6109bc726a565de08a6948c83db2b
+SHA1: 20f8d1b74b6f99ee0e524437a69de667ebc97f45
+SHA256: cfef955a1281f7217934b531ad26e4cc14067e0dd4ac15ec6782d07ba4b3b0d2
+SHA512: cdecd91bc0904acd5b604743005311cd11ff5e1623e9b42e2cee5b2c1367de57eb6a0306377eec4b924c293f16d5ba62fa2bbd9e692e1909f7e3cee4b3ae9aad
+Description: Extension for colcon to read defaults from a config file.
+ colcon-defaults
+ ===============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide custom default values for the command line arguments from a configuration file.
+ .
+ For more information about the format of the configuration file see `colcon.readthedocs.io <http://colcon.readthedocs.io/en/released/user/configuration.html#defaults-yaml>`_.
+
+Package: python3-colcon-devtools
+Priority: optional
+Section: python
+Installed-Size: 34
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.5-1
+Depends: python3:any (>= 3.6~), python3-colcon-core (>= 0.13.0)
+Filename: pool/main/p/python3-colcon-devtools/python3-colcon-devtools_0.2.5-1_all.deb
+Size: 4852
+MD5sum: 7d7e91b4d1f0418b787c1ac0af4baf25
+SHA1: d4d7b790a9a799d14479c80ef00a7d0b9a35e5aa
+SHA256: 6bada906e2189ded74bbfc0d241f2bd5b22ac7ccc714e7956079a66c428b1389
+SHA512: 7ca516f958134e0d3d977cfa5c4893885d302db19c4b9d5afbe30c3bd7d71c464795652f3bf7300397d3c80cc2d29c6b80f0028340a25bc292860afeaa0fdfdf
+Description: Extension for colcon to provide information about all extens
+ colcon-devtools
+ ===============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide information about the plugin system.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-devtools
+Priority: optional
+Section: python
+Installed-Size: 34
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.4-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.13.0)
+Filename: pool/main/p/python3-colcon-devtools/python3-colcon-devtools_0.2.4-1_all.deb
+Size: 4852
+MD5sum: a6253bd5190db25b6443b0aae9f14b91
+SHA1: 0d57b8d036a3101a142c5d5033f29d4fb08c7b3b
+SHA256: d75c86c1d472660c889639c1d4c53b062aa8fb853a03e7250e3bb33945d3f77b
+SHA512: cac387b5ff4228b4f1e7ebfe71ddc9bdab4d0c82a18745bce7ca7605fb67de3718ae20c945e29f7174d0dd854bdd2a677b91643bbe8fe04ce160bdecbcd3f7aa
+Description: Extension for colcon to provide information about all extens
+ colcon-devtools
+ ===============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide information about the plugin system.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-devtools
+Priority: optional
+Section: python
+Installed-Size: 33
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.2-1
+Depends: python3:any (>= 3.5~), python3-colcon-core
+Filename: pool/main/p/python3-colcon-devtools/python3-colcon-devtools_0.2.2-1_all.deb
+Size: 4448
+MD5sum: ad6b964cd7c1c92ef457beb0c26feaf3
+SHA1: 98106fd7bb00daf0225427b74cf3069774d8411d
+SHA256: 95dd63e1ccdf8914ab7dc5f986624647f3de6c41139b507345eb92ff1c2627af
+SHA512: 47afdfb9259862e61d88a5d638893e3c598d27ee137a4d8c2b709470807aadce4d6324120479ea13aa3af8dfb4cb9d846ff1699b1aec5ec72288b40cb295c39a
+Description: Extension for colcon to provide information about all extens
+ colcon-devtools
+ ===============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide information about the plugin system.
+
+Package: python3-colcon-ed
+Priority: optional
+Section: python
+Installed-Size: 31
+Maintainer: Chen Bainian <chenbn@artc.a-star.edu.sg>
+Architecture: all
+Version: 0.2.2-1
+Depends: python3-colcon-core (>= 0.5.2), python3:any (>= 3.5~)
+Filename: pool/main/p/python3-colcon-ed/python3-colcon-ed_0.2.2-1_all.deb
+Size: 5016
+MD5sum: 84fb40325eeb0b9574b5467c8f4a74fb
+SHA1: 32f1a0a167650c90b0118e9fcf64b7cf68b25eaf
+SHA256: 43887b334e1f8462ab993b4a593a612b65abc18a19a8941f8d1c8e7072af88fb
+SHA512: 650d6517e68744aeb3504043c62762301a4e214d25c4e1e18dd0043a0a733adc4209b8d6c320dd8d5a6b0160ce26ba5302f7fc375d260b9767677cb61fe3fb51
+Description: Extension for colcon to edit file in directories.
+ colcon-ed
+ =========
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to edit a file within a package.
+ .
+ See the `documentation <https://colcon.readthedocs.io/en/released/reference/verb/edit.html>`_ on how to use it.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-ed
+Priority: optional
+Section: python
+Installed-Size: 31
+Maintainer: Chen Bainian <chenbn@artc.a-star.edu.sg>
+Architecture: all
+Version: 0.1.2-2
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.5.2)
+Filename: pool/main/p/python3-colcon-ed/python3-colcon-ed_0.1.2-2_all.deb
+Size: 4844
+MD5sum: 5234668aff2291902fe2f1db8b95f226
+SHA1: db7b16d3c412acad00cd7ead3dde0b6fc75034a5
+SHA256: 09f6f1b8d663963d66a7cc4be48a0968e958a825c42caa95924fa0fd4582782f
+SHA512: a08ada68abad85325d8891e4b943d17e0496f47faca240157bc6a635747472f85274f08f1ea9d323efbfac87f4045aa42fdbde7a17e3303e2250a3914f704792
+Description: Extension for colcon to edit file in directories.
+ colcon-ed
+ =========
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to edit a file within a package.
+ .
+ See the `documentation <https://colcon.readthedocs.io/en/master/reference/verb/edit.html>`_ on how to use it.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-hardware-acceleration
+Priority: optional
+Section: python
+Installed-Size: 175
+Maintainer: Víctor Mayoral-Vilches <victor@accelerationrobotics.com>
+Architecture: all
+Version: 0.7.0-1
+Depends: python3-colcon-core (>= 0.7.1), python3:any (>= 3.6~)
+Filename: pool/main/p/python3-colcon-hardware-acceleration/python3-colcon-hardware-acceleration_0.7.0-1_all.deb
+Size: 24520
+MD5sum: d49f713e04b21f45786badc797567ecc
+SHA1: 3dffbe5fde2a73f2945053c31f09c9c06ee4b4c3
+SHA256: 4f800d5dd270e70b5975dfc9b0baebbd1b3e880a99b0d24e1a2c70ece23bb257
+SHA512: e096ab28517ea465da003ab8dd19ab4004e3acf2ff22931411e4a5537d1b176b44a5e266a922ef0050c0745805c25b4e7ac5df657554700a85d5893125b05bd1
+Description: Extension for colcon to include hardware acceleration
+
+Package: python3-colcon-installed-package-information
+Priority: optional
+Section: python
+Installed-Size: 42
+Maintainer: Scott K Logan <logans@cottsay.net>
+Architecture: all
+Version: 0.1.0-1
+Depends: python3-colcon-core, python3:any (>= 3.5~)
+Filename: pool/main/p/python3-colcon-installed-package-information/python3-colcon-installed-package-information_0.1.0-1_all.deb
+Size: 7508
+MD5sum: d0e8637ac938fe675a779956b36920bf
+SHA1: 44eb0d21bacd87e10889d24c0f20787fc94eff90
+SHA256: e7cbe0d5b5fb3a737a27a3d83dffb83620305e0307a7114b060531027cc52838
+SHA512: 1dd2bb7de97601a113bb2d90eb51044725a1e927eb6dbedaee7766b9de31de9ec53dfeb4b3075dffa3a434adaac241ed7d7d0b2c1c4630586f45ab8e5c03df65
+Description: Extensions for colcon to inspect packages which have already
+ colcon-installed-package-information
+ ====================================
+ .
+ Extensions for `colcon-core <https://github.com/colcon/colcon-core>`_ to inspect packages which have already been installed.
+ .
+ Overview
+ --------
+ .
+ These colcon extensions provide a mechanism which can be used for getting information about packages outside of the workspace, which have already been built and installed prior to the current operation.
+ In general, it works similarly to and is based on the `PackageDiscoveryExtensionPoint <https://colcon.readthedocs.io/en/released/developer/extension-point.html#packagediscoveryextensionpoint>`_ and `PackageAugmentationExtensionPoint <https://colcon.readthedocs.io/en/released/developer/extension-point.html#packageaugmentationextensionpoint>`_ extensions provided by ``colcon-core``.
+ .
+ Differences
+ -----------
+ .
+ Installed packages don't generally have a single directory which stores the package content and metadata.
+ This set of extensions store the "prefix" under which the package resides rather than the package directory (e.g. ``~/workspace/install`` instead of ``~/workspace/install/share/<package_name>`` or ``~/workspace/src/<package_name>``), meaning many packages will likely share the same ``path`` attribute value.
+ .
+ Recursively crawling an entire system or even selective subdirectories to look for installed packages could be very slow, so this process also deviates from the Discover -> Identify -> Augment pipeline used in ``colcon-core``.
+ Rather than attempting identification on prospective package locations, the discovery phase generally loads a list of installed packages from a database of some kind, such as the file-based colcon index.
+ In some cases, the database might already populate sufficient information on the descriptor to identify the package.
+
+Package: python3-colcon-lcov-result
+Priority: optional
+Section: python
+Installed-Size: 46
+Maintainer: Juan Pablo Samper <jp.samper@apex.ai>
+Architecture: all
+Version: 0.5.2-1
+Depends: python3-colcon-core, python3:any (>= 3.5~)
+Filename: pool/main/p/python3-colcon-lcov-result/python3-colcon-lcov-result_0.5.2-1_all.deb
+Size: 8250
+MD5sum: fbb2c4396d232cc175e9774f182e4046
+SHA1: e36f6c28a41b69ebcb5ca6771d483a0cdbcfd62f
+SHA256: a80585bbe2a13baa2a8c9473bb82311481721d3fbd038904bccf6a2b59ddfa57
+SHA512: 54d31aa349c3d0a7a6b0d775d5a6d36412f5aafb41e56599eb81ebfe11c23dc9579596cbe2486633d85a7eba33df8011eb8306c7abf4ba9fed42930517fe3277
+Description: Extension for colcon to gather test results.
+ colcon-lcov-result
+ ==================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide aggregate
+ coverage results using `LCOV <http://ltp.sourceforge.net/coverage/lcov.php>`_.
+ .
+ LCOV is a graphical front-end for GCC's coverage testing tool
+ `gcov <https://gcc.gnu.org/onlinedocs/gcc/Gcov.html>`_, producing the following
+ coverage metrics:
+ .
+ - Statement coverage
+ - Function coverage
+ - Branch coverage
+ .
+ For more information, see `this paper
+ <http://ltp.sourceforge.net/documentation/technical_papers/gcov-ols2003.pdf>`_
+ and `this Wikipedia page <https://en.wikipedia.org/wiki/Code_coverage>`_.
+ .
+ .
+ Usage
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-lcov-result
+Priority: optional
+Section: python
+Installed-Size: 48
+Maintainer: Juan Pablo Samper <jp.samper@apex.ai>
+Architecture: all
+Version: 0.5.0-2
+Depends: python3:any (>= 3.5~), python3-colcon-core
+Filename: pool/main/p/python3-colcon-lcov-result/python3-colcon-lcov-result_0.5.0-2_all.deb
+Size: 8324
+MD5sum: 3deef5a1699e05f1c3946d83c9df0d8d
+SHA1: b692440443c90a70b8a88dc9dcb6f2a8ef3ae6c6
+SHA256: 07d52752f214247b05745d3c3ac12840a79cc209dbb8f5830ab5935639b72e0e
+SHA512: 0b56fc16bbceb10030bf8170b25ebe07666de8156d4271a82729534a09a5a897f936b5d3ccabaa24989d88cc04ac7b03dc0a290ed52809bfcc59b2670eaf8fb4
+Description: Extension for colcon to gather test results.
+ colcon-lcov-result
+ ==================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide aggregate
+ coverage results using `LCOV <http://ltp.sourceforge.net/coverage/lcov.php>`_.
+ .
+ LCOV is a graphical front-end for GCC's coverage testing tool
+ `gcov <https://gcc.gnu.org/onlinedocs/gcc/Gcov.html>`_, producing the following
+ coverage metrics:
+ .
+ - Statement coverage
+ - Function coverage
+ - Branch coverage
+ .
+ For more information, see `this paper
+ <http://ltp.sourceforge.net/documentation/technical_papers/gcov-ols2003.pdf>`_
+ and `this Wikipedia page <https://en.wikipedia.org/wiki/Code_coverage>`_.
+ .
+ .
+ Usage
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-library-path
+Priority: optional
+Section: python
+Installed-Size: 26
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.1-1
+Depends: python3:any (>= 3.5~), python3-colcon-core
+Filename: pool/main/p/python3-colcon-library-path/python3-colcon-library-path_0.2.1-1_all.deb
+Size: 3528
+MD5sum: f095f4b99de5876503ede6021de0867d
+SHA1: f8e5b20ba2899ca1632f30420d6b094d0c20bd7b
+SHA256: 85d46cbe209c6fd937514564b8dd363ab38cefba858de3d01c55c88973459cad
+SHA512: 57764973d27353560a05022c9864c24544282a5a17f5bfc2a08aa202c55bdd3245d59f940c827408ccb29db916a221a66f731b8f5bdfb0e061ac5122e3c3750a
+Description: Extension for colcon adding an environment variable to find
+ colcon-library-path
+ ===================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to set an environment variable to find shared libraries at runtime.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-metadata
+Priority: optional
+Section: python
+Installed-Size: 61
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.5-1
+Depends: python3-yaml, python3:any (>= 3.5~), python3-colcon-core
+Filename: pool/main/p/python3-colcon-metadata/python3-colcon-metadata_0.2.5-1_all.deb
+Size: 9172
+MD5sum: ffc5bd123b301698f71c28adb8237e00
+SHA1: e0ddf4868dc3e49e51fbf0c6853433042cf3c787
+SHA256: 5ce670fa3ed0e414b1c282218554d36ba89cc35e6a4eae888928adf053f61705
+SHA512: 1f3e12b03e56c957716691a7c6ff793baf93ec876446c941b56cd2256092e1addcd5618b06f8beb05c9e9c56e40730d8bb6c0f5d748b529a5491a719d54106e8
+Description: Extension for colcon to read package metadata from files.
+ colcon-metadata
+ ===============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to fetch and manage package metadata from repositories.
+ .
+ For an example repository containing metadata see `colcon-metadata-repository <https://github.com/colcon/colcon-metadata-repository>`_.
+
+Package: python3-colcon-mixin
+Priority: optional
+Section: python
+Installed-Size: 67
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.3-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.12.0), python3-yaml
+Filename: pool/main/p/python3-colcon-mixin/python3-colcon-mixin_0.2.3-1_all.deb
+Size: 10984
+MD5sum: ca84175446cdad564314cc50938efa5d
+SHA1: 4e075bfd1913ce9bd9c43205da8ddf9d8b562006
+SHA256: 55bb668414e65198daa5fbb117f282c7cac9724863c9c8b52d7574fc85212428
+SHA512: 2c40c8dddd756d5760d556d6e7faf77812edf81c6ebce3d5257f3824c3c72c45074e5413877e5c81c1cb5f1d9b88511326c7915dccb11f35e964126470787947
+Description: Extension for colcon to read CLI mixins from files.
+ colcon-mixin
+ ============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to fetch and manage CLI mixins from repositories.
+ .
+ For an example repository containing mixins see `colcon-mixin-repository <https://github.com/colcon/colcon-mixin-repository>`_.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-mixin
+Priority: optional
+Section: python
+Installed-Size: 65
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.0-1
+Depends: python3-yaml, python3:any (>= 3.5~), python3-colcon-core (>= 0.5.6)
+Filename: pool/main/p/python3-colcon-mixin/python3-colcon-mixin_0.2.0-1_all.deb
+Size: 10420
+MD5sum: 13ae7adde154dab108422810493c3c8a
+SHA1: d87a88af819d9941651a7865832be25eef0d286d
+SHA256: cda6d52d26176dd318fe349a46cf4c067f6d5945ae76c42176149f2b413def14
+SHA512: 5d60f461f5a455e5f6e2177036efba05faa8e4e94abc2de078bcf43622e06abe613ee973d1ea1247f857492479787a49e8bbcd3b72ac796983375db051877df6
+Description: Extension for colcon to read CLI mixins from files.
+ colcon-mixin
+ ============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to fetch and manage CLI mixins from repositories.
+ .
+ For an example repository containing mixins see `colcon-mixin-repository <https://github.com/colcon/colcon-mixin-repository>`_.
+
+Package: python3-colcon-notification
+Priority: optional
+Section: python
+Installed-Size: 97
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.3.0-1
+Depends: python3:any (>= 3.6~), python3-colcon-core (>= 0.3.7), python3-notify2
+Filename: pool/main/p/python3-colcon-notification/python3-colcon-notification_0.3.0-1_all.deb
+Size: 10724
+MD5sum: 979837eb35e7b7fcad319b2ad2df5e3e
+SHA1: 5d214f3cbf9656d618a519938ced7b0af87a0e32
+SHA256: 68fe591c8cfd18486ebca023fbc9a6a40516e90910e4192ed7859df8f5b92e50
+SHA512: c763a29b81d9250003f223a9b466df5226770ae8cf6cc06728100f97cb7c26dd4a4e51c78a157685ab85a321778c3041f1cb172ce45e4bc804e51bdcc56e117c
+Description: Extension for colcon to provide status notifications.
+ colcon-notification
+ ===================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide status notifications.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-notification
+Priority: optional
+Section: python
+Installed-Size: 97
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.15-1
+Depends: python3-colcon-core (>= 0.3.7), python3-notify2, python3:any (>= 3.5~)
+Filename: pool/main/p/python3-colcon-notification/python3-colcon-notification_0.2.15-1_all.deb
+Size: 11308
+MD5sum: 618c9a7d2b8874040c80d4280440810a
+SHA1: 021b9f6d50213e720ee5e7f9aeb087b0d1750047
+SHA256: 793ea6392892ecb5d9f6d2c7d63b09197b9e0974402c0e937f824a04ba19a5d4
+SHA512: 5cd532a03b9b158b022fd50e6b6cfba077d9d918e610900b0d90111ec053fa8e6f0e1f246d4d53635eb28cd8fb68b8302c7381620288f43a2776c1b71eaf9ab7
+Description: Extension for colcon to provide status notifications.
+ colcon-notification
+ ===================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide status notifications.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-notification
+Priority: optional
+Section: python
+Installed-Size: 97
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.13-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.3.7), python3-notify2
+Filename: pool/main/p/python3-colcon-notification/python3-colcon-notification_0.2.13-1_all.deb
+Size: 10520
+MD5sum: 09bac435a721f02a7623a97afcf7fb68
+SHA1: 7c999d209095d8caa59f61e98c33cf658c2c1d86
+SHA256: 3441fc941c5bdcc531d2efb3f171537e31d99a7bf18cd6175145ddff4d092b06
+SHA512: 2dc6e2b08ac21b2a4d45dc29c4841a5bbf312ea096059e3397943b79e658738933e2fafec36746014365d23691164573f34e9a3f3422b1df7da0feb5cdf590a5
+Description: Extension for colcon to provide status notifications.
+ colcon-notification
+ ===================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide status notifications.
+
+Package: python3-colcon-output
+Priority: optional
+Section: python
+Installed-Size: 43
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.13-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.3.8)
+Filename: pool/main/p/python3-colcon-output/python3-colcon-output_0.2.13-1_all.deb
+Size: 6764
+MD5sum: 18e09f096ac7c0a4b98417129b3bf37f
+SHA1: 53b57a8455146247ab2affcfab5a835df3886399
+SHA256: cb1a61f6dd67d3b0040df0c43d81b346ceea374c9f3dca17fbe2eeb9049f8ec9
+SHA512: 08c0fbfd48fc8b30ab719ca89ea96f9c4240fe819290206ae1b18be419108a8187c17e7c84a99681a3ae2ba3e1fb900150364e1eb7fab752fe9a68b59420b0d4
+Description: Extension for colcon to customize the output in various ways
+ colcon-output
+ =============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to customize the output in various ways.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-output
+Priority: optional
+Section: python
+Installed-Size: 43
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.12-2
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.3.8)
+Filename: pool/main/p/python3-colcon-output/python3-colcon-output_0.2.12-2_all.deb
+Size: 6500
+MD5sum: d407f862c648c0c16c23f5f8935b658f
+SHA1: f2a7b4fcc5580d942b052205b93de630b2bb8883
+SHA256: d1e6cf8eec9c277d05613a620142e98072b25dffb14d6a02b6b71896b6d148ab
+SHA512: a9e3fe944c4753c8e9d22ef21d3b6fff87a536e8f919595b7492d9e11dbbabea84111a8c7e4e3d7700e7b13ae888bbd141615eec7a8dd8efa0d6e1db2594b68d
+Description: Extension for colcon to customize the output in various ways
+ colcon-output
+ =============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to customize the output in various ways.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-override-check
+Priority: optional
+Section: python
+Installed-Size: 31
+Maintainer: Scott K Logan <logans@cottsay.net>
+Architecture: all
+Version: 0.0.1-1
+Depends: python3-colcon-core (>= 0.7.1), python3:any (>= 3.5~), python3-colcon-installed-package-information
+Filename: pool/main/p/python3-colcon-override-check/python3-colcon-override-check_0.0.1-1_all.deb
+Size: 5172
+MD5sum: 00b1d5f4ae2baf7d99bfb5258612039e
+SHA1: 7db2a579fac8fd107cd13b99347cb1b8baf445a8
+SHA256: f343a756f1b8cf72b5ecb5188f3aadce0b89acc3a589a1a6492d5e46aa6671b2
+SHA512: d9c147ff308b397019824c9183d412f2f123477bb20e87eae1ae4ef4cf2c2d396030ce084825acdc7bddc1c4b4ef57203bc6bc4f796f974c32933bb0f23398a9
+Description: Extension for colcon to check for potential problems when ov
+ colcon-override-check
+ =====================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to check for potential problems when overriding installed packages.
+
+Package: python3-colcon-package-information
+Priority: optional
+Section: python
+Installed-Size: 53
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.3.3-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.5.2)
+Filename: pool/main/p/python3-colcon-package-information/python3-colcon-package-information_0.3.3-1_all.deb
+Size: 8340
+MD5sum: 384fd86d01cea5dc468e6309a95874cd
+SHA1: 8fb818cdbb2604ed06dc76cb15b40b26f36741ee
+SHA256: b00d955dc9180838f6300e5e8609c4cc560bc65f968268e0c99163914921c9dc
+SHA512: 9792c70a0bc5d0216deb4bf82dd188eb636ef7676406c901ffa7b5313dec996857b960e49ad52d95677f82072bfdb26d599e3a7eeb8278cdd0e795d4378f704c
+Description: Extension for colcon to output package information.
+ colcon-package-information
+ ==========================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide information about the packages.
+
+Package: python3-colcon-package-selection
+Priority: optional
+Section: python
+Installed-Size: 59
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.10-2
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.3.19)
+Filename: pool/main/p/python3-colcon-package-selection/python3-colcon-package-selection_0.2.10-2_all.deb
+Size: 7536
+MD5sum: 925f7fbb907036a0c1651744b0e4467d
+SHA1: bfeea927b1d982ed8a6fc0117b90628ec9e53022
+SHA256: 172990ea363d53ea01688bd993154a5e44c9978250f2df50848683e2d4407873
+SHA512: d1cefda703081d5e095201bd9ddf7afac01f46294e2803bd85d3733e7c29a01d61029fc9b3396507a1e7c4259582a1511fa649b9ffccaf1d55056b4cc04c4c03
+Description: Extension for colcon to select the packages to process.
+ colcon-package-selection
+ ========================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to select a subset of packages for processing.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-package-selection
+Priority: optional
+Section: python
+Installed-Size: 59
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.10-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.3.19)
+Filename: pool/main/p/python3-colcon-package-selection/python3-colcon-package-selection_0.2.10-1_all.deb
+Size: 7552
+MD5sum: fec5e2b723a7ce3eb1e2654631101a5d
+SHA1: 0d4c7eae16ffe63948d5f6fa937c4c3a325baa4b
+SHA256: e74cbe847efa404abadf47e1ce2542e6e5c3f8997b21d328aa385ddca8a347d9
+SHA512: 8496fcd560b98b94c6f694c2a1dd644f4ad7d657eeeec4dd175288eb80c8b28249733de746b9fe8f101e199ed686de8cea16191e33695c49fb8d2315f7c51ad7
+Description: Extension for colcon to select the packages to process.
+ colcon-package-selection
+ ========================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to select a subset of packages for processing.
+
+Package: python3-colcon-parallel-executor
+Priority: optional
+Section: python
+Installed-Size: 32
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.3.0-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.3.15)
+Filename: pool/main/p/python3-colcon-parallel-executor/python3-colcon-parallel-executor_0.3.0-1_all.deb
+Size: 5528
+MD5sum: 7f00c7ca8c1613a79431a76daa859d42
+SHA1: 393b383fa9671085eafdf6a35c656fdc2c4834f6
+SHA256: 0c94edf927ee5d72126690fc7c6123b2923c4b5840938daa37c77d404c8f0ef9
+SHA512: 02e81739219ac52fd77c22e6a665c7ba6ce9b3d78252f88014a6b202823435184c0cf3610737a6bb29d2fe085026c8a65ea7bc349ae1d846d38be1ca5dc9a7c0
+Description: Extension for colcon to process packages in parallel.
+ colcon-parallel-executor
+ ========================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to process packages in parallel.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-parallel-executor
+Priority: optional
+Section: python
+Installed-Size: 32
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.4-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.3.15)
+Filename: pool/main/p/python3-colcon-parallel-executor/python3-colcon-parallel-executor_0.2.4-1_all.deb
+Size: 5200
+MD5sum: 2ef1608b2a09163961aca2b8ae0e4018
+SHA1: 577d917761c110f7cd70bf10316a443b196e67ad
+SHA256: 28664ef802d463ce7861458c142069ee144e72ffaad2d9deb50faf2c8cbd1812
+SHA512: 186bd9668dfb19ca58be73f949e159bff95ea6d6fdabd7105dd3e3c6782f2be472e48dae7ff853c96aa7fe531f7d3c8c080608340a4569debcbaaf25400cb0fa
+Description: Extension for colcon to process packages in parallel.
+ colcon-parallel-executor
+ ========================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to process packages in parallel.
+
+Package: python3-colcon-pkg-config
+Priority: optional
+Section: python
+Installed-Size: 25
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.1.0-1
+Depends: python3:any (>= 3.5~), python3-colcon-core
+Filename: pool/main/p/python3-colcon-pkg-config/python3-colcon-pkg-config_0.1.0-1_all.deb
+Size: 3208
+MD5sum: d54225fe0b8653974247a47071f73f5f
+SHA1: 11ae497fb0d1cb5e7dbe6e1f9725b49967f0661a
+SHA256: 0f13dcb4057f9bdd4384d64839fee854b9780f418f624cec33cbda47c5be4097
+SHA512: fdcd45d0c11970a6672e513a1f0693a783bc95909b146a6117a9fb2944d8edcab4f3acf5df8ec3a1b879f67f8904f6f3b6733adf1d63ae6876d1307702bb5aed
+Description: Extension for colcon adding an environment variable to find
+ colcon-pkg-config
+ ===================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to set an environment variable to find pkg-config files.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-powershell
+Priority: optional
+Section: python
+Installed-Size: 44
+Maintainer: Dirk Thomas, Jacob Perron <web@dirk-thomas.net, jacob@openrobotics.org>
+Architecture: all
+Version: 0.4.0-1
+Depends: python3:any (>= 3.6~), python3-colcon-core (>= 0.12.0)
+Filename: pool/main/p/python3-colcon-powershell/python3-colcon-powershell_0.4.0-1_all.deb
+Size: 6956
+MD5sum: 1c785b9fcd2d2115e1f01d87d82fb538
+SHA1: 693a05b4a3129c9685db69e7232522f26d943ea5
+SHA256: cf79db96af9ec02f18f1331366289e2009070489fb20856549a180af79510ec7
+SHA512: 86b9e846e32ce4c30ef788844665c29b978b9e036b551364a2f702cc3a8258393b7b013201296c293a196276306845995371db08c6b6728c6870a5eeca177049
+Description: Extension for colcon to provide PowerShell scripts.
+ colcon-powershell
+ =================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide `PowerShell <https://github.com/PowerShell/PowerShell>`_ scripts.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-powershell
+Priority: optional
+Section: python
+Installed-Size: 41
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.3.6-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.4.2)
+Filename: pool/main/p/python3-colcon-powershell/python3-colcon-powershell_0.3.6-1_all.deb
+Size: 6520
+MD5sum: 1b536f68678b4be1525e9758a023b04f
+SHA1: 3df126dec8bc11c99dd170da3cb0a2e5f2db285f
+SHA256: 8a5c9e32df1cd0cec70a45a3a1ddc82498d0eff518517a0f32df8d4194875864
+SHA512: 58ec643fa20b898e3d9db7dd9ab82e6470d144b4cbf2537dce8b371c470df9b4ea17b1b995df6f41d9a8aa8e1817cb583423501a17452973d41e91427f57ce26
+Description: Extension for colcon to provide PowerShell scripts.
+ colcon-powershell
+ =================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide `PowerShell <https://github.com/PowerShell/PowerShell>`_ scripts.
+
+Package: python3-colcon-python-setup-py
+Priority: optional
+Section: python
+Installed-Size: 37
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.8-1
+Depends: python3-pkg-resources, python3:any (>= 3.5~), python3-colcon-core (>= 0.3.10), python3-setuptools
+Filename: pool/main/p/python3-colcon-python-setup-py/python3-colcon-python-setup-py_0.2.8-1_all.deb
+Size: 6452
+MD5sum: 4e181cb47fbcdad8633e75820bb7848f
+SHA1: 43c33252ec6d7b69656a636e8aa42bc31eff2500
+SHA256: 80d22b926f44e91b82b99b43bdd8e44b2d4c4dcb76159168d9d847c72d3ec50c
+SHA512: a458340efc9b32af3b9c06f393f28a6095ce7b243b92a231515b361002241434b3d0d296c0ad202b8aa0341ff6acbde523776d33248abfa45b3468501d4afa56
+Description: Extension for colcon to support Python packages with the met
+ colcon-python-setup-py
+ ======================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to identify packages with a ``setup.py`` file by introspecting the arguments to the ``setup()`` function call of  `setuptools <https://setuptools.readthedocs.io/en/latest/>`_.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-python-setup-py
+Priority: optional
+Section: python
+Installed-Size: 37
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.7-2
+Depends: python3-pkg-resources, python3:any (>= 3.5~), python3-colcon-core (>= 0.3.10), python3-setuptools
+Filename: pool/main/p/python3-colcon-python-setup-py/python3-colcon-python-setup-py_0.2.7-2_all.deb
+Size: 6244
+MD5sum: a37c5b9125facb606b6537931fd00335
+SHA1: c1e4f341b99b6a46cbc58bca455582629f73d7db
+SHA256: 2be5ad551853ba4d94ea08620558f28746b4e6d98d7188bce03778e771212834
+SHA512: 594821ec5986495fc6f1c7d8488b2aecb4253a964f1b35f10b686fc8f41b4f4331249fb1880da459da947df8e1b883fc97a11c8389edc4c4e850fbef18d4e426
+Description: Extension for colcon to support Python packages with the met
+ colcon-python-setup-py
+ ======================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to identify packages with a ``setup.py`` file by introspecting the arguments to the ``setup()`` function call of  `setuptools <https://setuptools.readthedocs.io/en/latest/>`_.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-recursive-crawl
+Priority: optional
+Section: python
+Installed-Size: 27
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.3-1
+Depends: python3:any (>= 3.6~), python3-colcon-core (>= 0.7.0)
+Filename: pool/main/p/python3-colcon-recursive-crawl/python3-colcon-recursive-crawl_0.2.3-1_all.deb
+Size: 3888
+MD5sum: 4ab268068c107d4cdbfb1901af3f0faf
+SHA1: 183306590febd8e8a61361f4a2a6c5c66eda57a2
+SHA256: 012c0d4ea838228cb6a6663083f93fb3dcc6f2117419fa205b06d9fc1feb4f6b
+SHA512: 9c26c9ac68ed9037ee10a73b8baecba42c2b8a98ea1b09e2a3db8f498f59669b9756bece0b071c32d1227a1d069a2daa34760f538b2c17d198d262025699b4bc
+Description: Extension for colcon to recursively crawl for packages.
+ colcon-recursive-crawl
+ ======================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to recursively crawl for packages.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-recursive-crawl
+Priority: optional
+Section: python
+Installed-Size: 26
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.2.1-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.5.0)
+Filename: pool/main/p/python3-colcon-recursive-crawl/python3-colcon-recursive-crawl_0.2.1-1_all.deb
+Size: 3648
+MD5sum: 8c737d29d9b5a70ec51dcdf9e8691869
+SHA1: a6315b4de00c70e6a3cae5a4a72468b5cd76bd71
+SHA256: 32bd21a5ee53427fdf87b3fdef62150e7fec3c75feef2a3559fd33cf4ae387f7
+SHA512: 8d8d630f8d1b9b8bf5739a69ad5b3239d199ce53b9475bd493f35cdf37d589f53c5300047ba1561b2b2fb7212ed96249652dc0892280bfe13e3ed26b4bddb59a
+Description: Extension for colcon to recursively crawl for packages.
+ colcon-recursive-crawl
+ ======================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to recursively crawl for packages.
+
+Package: python3-colcon-rerun
+Priority: optional
+Section: python
+Installed-Size: 32
+Maintainer: Scott K Logan <logans@cottsay.net>
+Architecture: all
+Version: 0.1.1-1
+Depends: python3:any (>= 3.6~), python3-colcon-core (>= 0.13.0), python3-filelock, python3-yaml
+Filename: pool/main/p/python3-colcon-rerun/python3-colcon-rerun_0.1.1-1_all.deb
+Size: 4944
+MD5sum: d342b929caf188426d2d42e2282fd225
+SHA1: 3e62c0450f6c6bf1e7f34519225e2e6b19120a58
+SHA256: 4c73fa30996de446757601588adf17a1e50ecd81f8b1e3d9e41ce37970410490
+SHA512: 3b9082d576bf69adccd096d9dd524aebc4df2b9576cbfe3f7680546b0f00ed313c1679f910acaae37caa7bed2a9b17227ff27f999a6c85972d82eae8bfc63614
+Description: Extension for colcon to quickly re-run a recently executed v
+ colcon-rerun
+ ============
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to quickly re-run a recently executed verb.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-ros
+Priority: optional
+Section: python
+Installed-Size: 86
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.4.1-1
+Depends: python3:any (>= 3.6~), python3-catkin-pkg-modules (>= 0.4.14), python3-colcon-cmake (>= 0.2.6), python3-colcon-core (>= 0.7.0), python3-colcon-pkg-config, python3-colcon-python-setup-py (>= 0.2.4), python3-colcon-recursive-crawl
+Filename: pool/main/p/python3-colcon-ros/python3-colcon-ros_0.4.1-1_all.deb
+Size: 12376
+MD5sum: e0b85a942aba9546d913c1d2145990d8
+SHA1: 5eaed0ecd1fadc05dba6cb3579295f247563b5fe
+SHA256: 456033330a7b40365e00a9d101c4588c0064e380f81cac8de5e35d7928517717
+SHA512: 3940fb25c362985828ec48a123519609f3d397a4c58df9f5f076faa5d50926a2b64405613b317f4c2d71b09f69cd297cb6bb258085fd3f5b13bebca13296a204
+Description: Extension for colcon to support ROS packages.
+ colcon-ros
+ ==========
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to support `ROS packages <http://www.ros.org>`_.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-ros
+Priority: optional
+Section: python
+Installed-Size: 83
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.3.21-2
+Depends: python3:any (>= 3.5~), python3-catkin-pkg-modules (>= 0.4.14), python3-colcon-cmake (>= 0.2.6), python3-colcon-core (>= 0.5.3), python3-colcon-pkg-config, python3-colcon-python-setup-py (>= 0.2.4), python3-colcon-recursive-crawl
+Filename: pool/main/p/python3-colcon-ros/python3-colcon-ros_0.3.21-2_all.deb
+Size: 11372
+MD5sum: 8979152c42d4b60e2138fefc39d632a9
+SHA1: 67c62c2d1a77bc9515e24cc38a64a6e97e2fee87
+SHA256: b7e2c98b98fc135c337aae17b78c64756cc5ccc72ab8d4a766eeb01c798b7ce1
+SHA512: a719dd058d0d34f74f2b5b39f35eeadc0fe8fa1e9d494c76d67702eea29b294ca696e529e3d717debe4228118ed94f696ff16297a2d6e3847f7d7d73f6c0bf55
+Description: Extension for colcon to support ROS packages.
+ colcon-ros
+ ==========
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to support `ROS packages <http://www.ros.org>`_.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-ros-domain-id-coordinator
+Priority: optional
+Section: python
+Installed-Size: 28
+Maintainer: Scott K Logan <logans@cottsay.net>
+Architecture: all
+Version: 0.2.0-1
+Depends: python3:any (>= 3.6~), python3-colcon-core (>= 0.12.0)
+Filename: pool/main/p/python3-colcon-ros-domain-id-coordinator/python3-colcon-ros-domain-id-coordinator_0.2.0-1_all.deb
+Size: 4928
+MD5sum: fad138a280ed204c65683a511f6fb595
+SHA1: b16b22e7fd64c74045d308fcffc803a13f0808ec
+SHA256: 050f5ec9ca5a233e777f9ec1af7ca3e6743246b7dde5889a1ea2339b1cf663ba
+SHA512: cf8d1a129cf35bfe8c1b9ee49288317c49021fbf1dc6fdb6254d65657d285f46710f865243795f06722236cfa0f4a23205a2e4b0a4c934f053aca1a8a2d816d9
+Description: Extension for colcon to coordinate different DDS domain IDs
+ colcon-ros-domain-id-coordinator
+ ================================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to coordinate different DDS `domain IDs <https://docs.ros.org/en/rolling/Concepts/Intermediate/About-Domain-ID.html>`_ for concurrently running tasks.
+ .
+ The current implementation of this package cycles through all of the non-default ROS 2 domain IDs that should be available on a platform given that it has no special network configurations.
+ It does not track which task uses the domain IDs and therefore does not eliminate the possibility of a collision, but drastically reduces the likelihood that two tasks end up using the same domain ID.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-spawn-shell
+Priority: optional
+Section: python
+Installed-Size: 31
+Maintainer: Shane Loretz <shane.loretz@gmail.com>
+Architecture: all
+Version: 0.3.0-1
+Depends: python3:any (>= 3.6~), python3-colcon-core (>= 0.12.0), python3-colcon-bash (>= 0.3.0)
+Filename: pool/main/p/python3-colcon-spawn-shell/python3-colcon-spawn-shell_0.3.0-1_all.deb
+Size: 5660
+MD5sum: 2480a9d9fedaf3aea11bbd1b052f0dd1
+SHA1: 83745368012ea094ccf511d6b73b9480826c1364
+SHA256: 831bd82087ad805d14cd34c56f7002bac74cb365d722f754a6f5407b83dd8525
+SHA512: 06db2897ec90db10ef06f44bd790a8f6fd50eac1f129f0da1eae57a97c01b8ea263cb784e28508d417063618ebe27dff189779a16ed183cecd9e302aeaf658c9
+Description: Source colcon workspaces in a new shell.
+ ==================
+ Colcon Spawn Shell
+ ==================
+ .
+ Introduction
+ ------------
+ .
+ This is a `colcon <https://colcon.readthedocs.io>`_ plugin to chain workspaces in new shells.
+ It allows quickly un-chaining workspaces by exiting the spawned shell.
+ .
+ The shell's prompt is edited to show the workspace order.
+ The only supported shell is **bash**.
+ .
+ .. image:: https://raw.githubusercontent.com/colcon/colcon-spawn-shell/8de6d0a687619bfd8342647b6d216695bb76dfaf/doc/colcon_spawn_shell_example.gif
+ .
+ Quick Start
+ -----------
+ .
+ **Optional:** Create and source a virtual environment.
+Homepage: http://github.com/colcon/colcon-spawn-shell
+
+Package: python3-colcon-test-result
+Priority: optional
+Section: python
+Installed-Size: 43
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.3.8-1
+Depends: python3:any (>= 3.5~), python3-colcon-core
+Filename: pool/main/p/python3-colcon-test-result/python3-colcon-test-result_0.3.8-1_all.deb
+Size: 7144
+MD5sum: 64d7f6bf51792a0a52cf3e4772669ec6
+SHA1: 284b5266c436263f00aa385a790fe4b57eea21aa
+SHA256: 3858d50b6b09b73ce9a1d93596d252a0181776073089c23548969d21f0be3742
+SHA512: 1e2fca14cd96a2efa05e50540b95348564c55f4bbe7a060692f72b19269866d1639c4575e9e1f9204ca69e1f54597df0f10772c5b71edbe30351d4d0eed52612
+Description: Extension for colcon to provide information about the test r
+ colcon-test-result
+ ==================
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide information about the test results.
+
+Package: python3-colcon-zsh
+Priority: optional
+Section: python
+Installed-Size: 36
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.5.0-1
+Depends: python3:any (>= 3.6~), python3-colcon-core (>= 0.12.0)
+Filename: pool/main/p/python3-colcon-zsh/python3-colcon-zsh_0.5.0-1_all.deb
+Size: 5560
+MD5sum: b6f789336a817823d3e35edcb9ab8b82
+SHA1: 207002ceffe6989e07ba81bc9eb5e80eb9df1e51
+SHA256: 7ea2cfe9d970de059b34ae95163a573e1f3c2472520fb0af43f4b965708eeb87
+SHA512: 0ac9f82df1c4337660f612895cd4fccf0ac31432af9b93704fab7808501ed191f709f6f5ec4ca497ffde7f467d21e2fad0d21a30fafdce0651b2e5464968ba11
+Description: Extension for colcon to provide Z shell scripts.
+ colcon-zsh
+ ==========
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide `Z shell <http://www.zsh.org>`_ scripts.
+Homepage: https://colcon.readthedocs.io
+
+Package: python3-colcon-zsh
+Priority: optional
+Section: python
+Installed-Size: 35
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.4.0-1
+Depends: python3:any (>= 3.5~), python3-colcon-core (>= 0.3.18)
+Filename: pool/main/p/python3-colcon-zsh/python3-colcon-zsh_0.4.0-1_all.deb
+Size: 5316
+MD5sum: 69321000c54663f5c8522209f35377f4
+SHA1: 7205ea7f06136a0fc4c10ac9d011dac442c5049f
+SHA256: 644901d9ffb5dd0b33a4abe13cdfb531c7a6224d4edd0b049bb2ce0072c596d7
+SHA512: 8ffdbeb2abd3a2b51ed0ad343d7c3bb29ef7f3044f06c902276b4b6272b2c462815c8742fa75c52c6d5f819b22a41fecc7c483db176e8966636600cd68685be8
+Description: Extension for colcon to provide Z shell scripts.
+ colcon-zsh
+ ==========
+ .
+ An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide `Z shell <http://www.zsh.org>`_ scripts.
+
+Package: python3-osrf-pycommon
+Priority: optional
+Section: python
+Installed-Size: 121
+Maintainer: William Woodall <william@osrfoundation.org>
+Architecture: all
+Version: 2.0.2-1
+Depends: python3:any (>= 3.8~), python3-setuptools, python3-importlib-metadata
+Conflicts: python-osrf-pycommon
+Filename: pool/main/p/python3-osrf-pycommon/python3-osrf-pycommon_2.0.2-1_all.deb
+Size: 23292
+MD5sum: 5914f20e07e090db895ad7a5438562b9
+SHA1: 244e499cf67d0073ee3ee01ae0ecdfd22b52391c
+SHA256: 4be12211afbc60b27796b3598014002e52e820ffa79af0c71bbd63ac6012de23
+SHA512: c2aec229c62f2b491908bb84b00fbcfeb33d3918826d1f527f9b258879d5aa465f2623bbb6dabd9fa46d02bfbff97e097de70358510932919c6d2e604d7835fc
+Description: Commonly needed Python modules, used by Python software deve
+Homepage: http://osrf-pycommon.readthedocs.org/
+
+Package: python3-osrf-pycommon
+Priority: optional
+Section: python
+Installed-Size: 121
+Maintainer: William Woodall <william@osrfoundation.org>
+Architecture: all
+Version: 2.0.1-1
+Depends: python3:any (>= 3.8~), python3-setuptools, python3-importlib-metadata
+Conflicts: python-osrf-pycommon
+Filename: pool/main/p/python3-osrf-pycommon/python3-osrf-pycommon_2.0.1-1_all.deb
+Size: 23312
+MD5sum: 158fbda2601ba8d3a602fd1be0d1b3ec
+SHA1: 572ae9d7f37064ffabc00dbd2adaf5c76993199b
+SHA256: a7a17f6c31167e0a7129f2c5119105b68ede367351cedecce12c112d9817de82
+SHA512: 3dc6a622d3c6c2966e1810b76da0dadd73ef372958f9d035877eab73ab0c45c525ff2231f193a33e5df8dea2d38f0ff9b28d0cf6ac9de6a40bd4c18e03e68124
+Description: Commonly needed Python modules, used by Python software deve
+Homepage: http://osrf-pycommon.readthedocs.org/
+
+Package: python3-osrf-pycommon
+Priority: optional
+Section: python
+Installed-Size: 121
+Maintainer: William Woodall <william@osrfoundation.org>
+Architecture: all
+Version: 2.0.0-1
+Depends: python3-pkg-resources, python3:any (>= 3.8~), python3-setuptools, python3-importlib-metadata
+Conflicts: python-osrf-pycommon
+Filename: pool/main/p/python3-osrf-pycommon/python3-osrf-pycommon_2.0.0-1_all.deb
+Size: 23276
+MD5sum: 76e7c87e7bff401fab3c55391789f076
+SHA1: 01c7ecd88baa950305a0e03879328a9b0d4ede82
+SHA256: f9d2f94b0cfd9dde8143fde722c8f14e5e6672db5decc0e02d1942baede5be16
+SHA512: e33051c34d3673f39702442ce4a5419fe52a7418b37369cc413d23bd0f8cfc50c860498ed7c9bcd8a3e3c3fdbf5702a26dd8f4bd4cd576749dd69fa261e7d33e
+Description: Commonly needed Python modules, used by Python software deve
+Homepage: http://osrf-pycommon.readthedocs.org/
+
+Package: python3-osrf-pycommon
+Priority: optional
+Section: python
+Installed-Size: 120
+Maintainer: William Woodall <william@osrfoundation.org>
+Architecture: all
+Version: 1.0.0-1
+Depends: python3-pkg-resources, python3:any (>= 3.5~), python3-setuptools
+Conflicts: python-osrf-pycommon
+Filename: pool/main/p/python3-osrf-pycommon/python3-osrf-pycommon_1.0.0-1_all.deb
+Size: 23232
+MD5sum: 2992ff1f1db5fca378c314af53d6e514
+SHA1: 68f0d61eb0897c15f96e1a584aca779f7b9a96e8
+SHA256: cf7842ed9c7de0333b4fd72cb454907070c5b7ed36e4e241af68963e602c83a9
+SHA512: 33395de23ac600d1321ce1d6401f8352327f3c3699f867feb86eead5e6e43fb98471d865ba70acb54f678b85f8ca53142d9c3ae6c870e807819f295421ddf48a
+Description: Commonly needed Python modules, used by Python software deve
+Homepage: http://osrf-pycommon.readthedocs.org/
+
+Package: python3-rocker
+Priority: optional
+Section: python
+Installed-Size: 96
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.2.13-100
+Depends: python3-docker, python3-empy, python3-packaging, python3-pexpect, python3-urllib3, python3:any (>= 3.2~)
+Conflicts: python-rocker
+Filename: pool/main/p/python3-rocker/python3-rocker_0.2.13-100_all.deb
+Size: 17156
+MD5sum: 1801ddf15985dd6dbebaa8d9c9052416
+SHA1: 617090d64f8bebd571fb82813ce94fec6b406a98
+SHA256: aa0d0d6daf97764e28900fa330635344511a7359e8ba877f67d1b0ea95d467dc
+SHA512: f4c1ce41d2bb17fdf907f5a56478723f25e63d095d1ad41746bcd8a410e65b2589692b0ad4b75479055e1ed36535dd32be3fdf8f35c05a4e054dae5421f62d54
+Description: A tool to run docker containers with customized extras
+ A tool to run docker containers with customized extra added like nvidia gui support overlayed.
+Homepage: https://github.com/osrf/rocker
+
+Package: python3-rocker
+Priority: optional
+Section: python
+Installed-Size: 88
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.2.12-100
+Depends: python3-docker, python3-empy, python3-packaging, python3-pexpect, python3:any (>= 3.2~)
+Conflicts: python-rocker
+Filename: pool/main/p/python3-rocker/python3-rocker_0.2.12-100_all.deb
+Size: 15712
+MD5sum: 3d2e5737a5c274581d7a9b89cc03a46d
+SHA1: ed6c67756417b123011a0a717cc299373aa4cb96
+SHA256: 9d88f47e6d68c441f4d65597c06a0e9061ddd886433778f9bfc782c5cd8c908f
+SHA512: 4bfc69474b600d0dc8cbb13d3d875b83dbbdb64962861d69ad2a779893c558522eeed20d1f7afb0f6a8b671f777e4197e24d2c48288dbf58b6202fba3beb696a
+Description: A tool to run docker containers with customized extras
+ A tool to run docker containers with customized extra added like nvidia gui support overlayed.
+Homepage: https://github.com/osrf/rocker
+
+Package: python3-rocker
+Priority: optional
+Section: python
+Installed-Size: 88
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.2.11-100
+Depends: python3-docker, python3-empy, python3-packaging, python3-pexpect, python3:any (>= 3.2~)
+Conflicts: python-rocker
+Filename: pool/main/p/python3-rocker/python3-rocker_0.2.11-100_all.deb
+Size: 15688
+MD5sum: bf3a35260d200f14bfb6d257b56970c6
+SHA1: 102b22a40019c58d8462377ac7eb9d4890678085
+SHA256: a5ff55f5e25686c114063ec91286dcf7860cb3cf99540b14401836a57a6279d4
+SHA512: 8e9f193aef1fbbe414d8c5f4a91010d64ffaa5d9b49a5ac7836cbe4fef48dfc8bb511a62540c9d43623dff20cbdd2664d4815ff8414390018f71ba033982d265
+Description: A tool to run docker containers with customized extras
+ A tool to run docker containers with customized extra added like nvidia gui support overlayed.
+Homepage: https://github.com/osrf/rocker
+
+Package: python3-rocker
+Priority: optional
+Section: python
+Installed-Size: 77
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.2.10-100
+Depends: python3-docker, python3-empy, python3-packaging, python3-pexpect, python3:any (>= 3.2~)
+Conflicts: python-rocker
+Filename: pool/main/p/python3-rocker/python3-rocker_0.2.10-100_all.deb
+Size: 14016
+MD5sum: df073b9244004bea3c5a6335976ab316
+SHA1: cde03119212e7d6f53d1f50299535ea2781ad548
+SHA256: d787ada6d46dccc86c02e63606850446b24b04f15ae243a3e9c32807293937aa
+SHA512: cc542f0b99f9da536c0e2a1ba584303c138cb239572dd10acea63a8b43dca08926da258b1e2dc511beca30a671d50594f3a57ae6894847122842b6249206621e
+Description: A tool to run docker containers with customized extras
+ A tool to run docker containers with customized extra added like nvidia gui support overlayed.
+Homepage: https://github.com/osrf/rocker
+
+Package: python3-rocker
+Priority: optional
+Section: python
+Installed-Size: 76
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.2.9-100
+Depends: python3-docker, python3-empy, python3-packaging, python3-pexpect, python3:any (>= 3.2~)
+Conflicts: python-rocker
+Filename: pool/main/p/python3-rocker/python3-rocker_0.2.9-100_all.deb
+Size: 13900
+MD5sum: b82ee5f078b0e1afb247bd9375d1eb2e
+SHA1: e5655ddd9224ced9907fbd83fb1833cba87c92eb
+SHA256: 605ffae3ee96033869850929e202ba0d26ae2433b17efc5aae65d85d620d80fe
+SHA512: d9935b56a526109711b02eda08a284cae523e1cd5ac6e87234dae61cb2dd2f72cc31b23663169c5513ba372c84a648ad23510453ac192524bf48491cbc53510c
+Description: A tool to run docker containers with customized extras
+ A tool to run docker containers with customized extra added like nvidia gui support overlayed.
+Homepage: https://github.com/osrf/rocker
+
+Package: python3-rocker
+Priority: optional
+Section: python
+Installed-Size: 76
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.2.7-100
+Depends: python3-docker, python3-empy, python3-packaging, python3-pexpect, python3:any (>= 3.2~)
+Conflicts: python-rocker
+Filename: pool/main/p/python3-rocker/python3-rocker_0.2.7-100_all.deb
+Size: 13808
+MD5sum: a23e69b877fad97df85a4d03f5ddd6bd
+SHA1: e4c87f2d049e1b5d39172340d4e657853b16fe6c
+SHA256: bbc806e25858f79a1eca71e30653116ac86d81a02f6484d18268f29713799b3f
+SHA512: b7ecb084c336a184998e9d2b6b7a593d489f4d9287b5fc50e03c994f6b927dc5e8295773b71a05a3daa4a32b3ac85b9d55d9042a3f14dafb736f41a04daad617
+Description: A tool to run docker containers with customized extras
+ A tool to run docker containers with customized extra added like nvidia gui support overlayed.
+Homepage: https://github.com/osrf/rocker
+
+Package: python3-rosdep
+Priority: optional
+Section: python
+Installed-Size: 21
+Maintainer: Tully Foote, Ken Conley <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.22.2-1
+Depends: python3:any (>= 3.6~), python3-rosdep-modules (>= 0.22.2)
+Conflicts: python-rosdep, python-rosdep2, python3-rosdep2
+Filename: pool/main/p/python3-rosdep/python3-rosdep_0.22.2-1_all.deb
+Size: 3532
+MD5sum: 9375678ad2e12ea3d75ec358078ac86f
+SHA1: 5d648f476e68e56a8bfa4f1509a75cff3743ce69
+SHA256: d3f9dcc35fe94746ec793e7f611e757b2540ebec986dae2ffd8bd4cf2e3c8f1e
+SHA512: 4f161b897e010ebe041b9f93c4f940512e5dabf38fb606b57f4a03650c8468b37b22fd9f89c5326ed722f3d7a33f9732650fbefbadb82138dd7f72021ef9afc3
+Description: rosdep package manager abstraction tool for ROS
+ Command-line tool for installing system dependencies on a variety of platforms.
+Homepage: http://wiki.ros.org/rosdep
+
+Package: python3-rosdep
+Priority: optional
+Section: python
+Installed-Size: 21
+Maintainer: Tully Foote, Ken Conley <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.22.1-1
+Depends: python3:any (>= 3.6~), python3-rosdep-modules (>= 0.22.1)
+Conflicts: python-rosdep, python-rosdep2, python3-rosdep2
+Filename: pool/main/p/python3-rosdep/python3-rosdep_0.22.1-1_all.deb
+Size: 3304
+MD5sum: b5d0f6d701211a6acbe3fe69d3089b8b
+SHA1: 195b7e52d51ad5717e749ed82ac5194e6fec3fe5
+SHA256: 79403b1e467920b673df8af8c625f97658a30fbc70e8205d28c75243cf97fc24
+SHA512: 1f5c89fb5ed5f49d62c0f3482c27dbb847eb7f43e70c8bea5d2fa42edf392fb398d32c2ac21b8991d032b80bec21f6b64a76accd4b70e8af15664db6b64d6ffc
+Description: rosdep package manager abstraction tool for ROS
+ Command-line tool for installing system dependencies on a variety of platforms.
+Homepage: http://wiki.ros.org/rosdep
+
+Package: python3-rosdep
+Priority: optional
+Section: python
+Installed-Size: 21
+Maintainer: Tully Foote, Ken Conley <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.22.0-1
+Depends: python3:any (>= 3.6~), python3-rosdep-modules (>= 0.22.0)
+Conflicts: python-rosdep, python-rosdep2, python3-rosdep2
+Filename: pool/main/p/python3-rosdep/python3-rosdep_0.22.0-1_all.deb
+Size: 3328
+MD5sum: 9ec26477bd3a882d0ef3827a299e510d
+SHA1: 0aa840155005712e3fd73802c1b97e65f79b8005
+SHA256: b168aa80d1c92b792ad3cae64a9f8a234c7e51f0a31232462026f4699ed7a251
+SHA512: 9229ad3e2d4a5009a52e6a335712e1e6a3b3b9a3131a996eb9c6a358a141b9e455a46d84b82bfdf270a338904abcfe17cfacfce9f417778b2ad3fd51165b47d2
+Description: rosdep package manager abstraction tool for ROS
+ Command-line tool for installing system dependencies on a variety of platforms.
+Homepage: http://wiki.ros.org/rosdep
+
+Package: python3-rosdep
+Priority: optional
+Section: python
+Installed-Size: 20
+Maintainer: Tully Foote, Ken Conley <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.21.0-1
+Depends: python3-catkin-pkg, python3-rosdistro, python3-rospkg, python3-yaml, python3:any (>= 3.4~), python3-rosdep-modules (>= 0.21.0)
+Conflicts: python-rosdep, python-rosdep2, python3-rosdep2
+Filename: pool/main/p/python3-rosdep/python3-rosdep_0.21.0-1_all.deb
+Size: 3428
+MD5sum: c402febe9db9187a2ea4e46ecc3ae48f
+SHA1: 935a85c43d744bfe2bc9c919a3426fd46d3d1c2a
+SHA256: fda5113e0892c7dd5cbf95cd2a00cd2ea8fe41b921769bf26f9421cc1939d294
+SHA512: 55895a5ff9daa90bbba68dd9799e33b84e0040eac49b1abee58b037b0adbdfd6503e08629e669bff6dead60aa0a38a2a0b9212c19dc0c0da999bfe4e67e51f92
+Description: rosdep package manager abstraction tool for ROS
+ Command-line tool for installing system dependencies on a variety of platforms.
+Homepage: http://wiki.ros.org/rosdep
+
+Package: python3-rosdep-modules
+Priority: optional
+Section: python
+Installed-Size: 327
+Maintainer: Tully Foote, Ken Conley <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.22.2-1
+Replaces: python3-rosdep (<< 0.18.0)
+Depends: python3:any (>= 3.6~), ca-certificates, python3-rospkg-modules (>= 1.4.0), python3-yaml, python3-catkin-pkg-modules (>= 0.4.0), python3-rosdistro-modules (>= 0.7.5), python3-setuptools, sudo
+Conflicts: python3-rosdep (<< 0.18.0), python3-rosdep2
+Filename: pool/main/p/python3-rosdep-modules/python3-rosdep-modules_0.22.2-1_all.deb
+Size: 52564
+MD5sum: b3fee10904ce836fe4e30f3f3a0189f2
+SHA1: 49c527aa51c38010d1bfeb1dce2b9965cf9d2a99
+SHA256: 79b529cf114379e105185df93601c61573ef1195c83a7f51b2b9089ddf2f0f91
+SHA512: 87645bcabe0a1fc0fc33e1de11ff3a7a45e8c9e91eecd3c792355864eecf81bbbdebfac889072e9b8fa1f987827bb15644e91847f092aea785f65cb3fb55050f
+Description: rosdep package manager abstraction tool for ROS
+ Command-line tool for installing system dependencies on a variety of platforms.
+Homepage: http://wiki.ros.org/rosdep
+
+Package: python3-rosdep-modules
+Priority: optional
+Section: python
+Installed-Size: 327
+Maintainer: Tully Foote, Ken Conley <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.22.1-1
+Replaces: python3-rosdep (<< 0.18.0)
+Depends: python3:any (>= 3.6~), ca-certificates, python3-rospkg-modules (>= 1.4.0), python3-yaml, python3-catkin-pkg-modules (>= 0.4.0), python3-rosdistro-modules (>= 0.7.5), python3-setuptools, sudo
+Conflicts: python3-rosdep (<< 0.18.0), python3-rosdep2
+Filename: pool/main/p/python3-rosdep-modules/python3-rosdep-modules_0.22.1-1_all.deb
+Size: 52504
+MD5sum: 98665b101a5c5ab10279ba9b19c3e29d
+SHA1: 2bb7640f468b4aec6a98cd38129db27ad6943510
+SHA256: 62e2eaf2cf04ee29230e598c05c36d99829d411755fd4fd4b3ec01906c28a3ba
+SHA512: d2c1577f946f369ce64edc453b351ac168a1583ae30ff07ff6ec69dc6990e5ea4108ae34b5098311c8b07c60688662d74968960eb22185cb42d6a6a9f76b53c0
+Description: rosdep package manager abstraction tool for ROS
+ Command-line tool for installing system dependencies on a variety of platforms.
+Homepage: http://wiki.ros.org/rosdep
+
+Package: python3-rosdep-modules
+Priority: optional
+Section: python
+Installed-Size: 327
+Maintainer: Tully Foote, Ken Conley <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.22.0-1
+Replaces: python3-rosdep (<< 0.18.0)
+Depends: python3:any (>= 3.6~), ca-certificates, python3-rospkg-modules (>= 1.4.0), python3-yaml, python3-catkin-pkg-modules (>= 0.4.0), python3-rosdistro-modules (>= 0.7.5), python3-setuptools, sudo
+Conflicts: python3-rosdep (<< 0.18.0), python3-rosdep2
+Filename: pool/main/p/python3-rosdep-modules/python3-rosdep-modules_0.22.0-1_all.deb
+Size: 52528
+MD5sum: 2df6b3116cd89b34113cd8ca4fb1e5ea
+SHA1: e6bc797fe739ee6bd63b1998c98793df4f974308
+SHA256: 3d6cddb525e16a8c0a323f94c98e087deda31be2bd7e8d17cc56d209462450ff
+SHA512: a76e9c16a506ac6f96822fce42fbc6d86313b5495f46cf859d53ecf51f8cb2270d45e73d835b0f550982e89bb1392c36e94b6b66feda3d9a32e7bd26d79a9f93
+Description: rosdep package manager abstraction tool for ROS
+ Command-line tool for installing system dependencies on a variety of platforms.
+Homepage: http://wiki.ros.org/rosdep
+
+Package: python3-rosdep-modules
+Priority: optional
+Section: python
+Installed-Size: 317
+Maintainer: Tully Foote, Ken Conley <tfoote@osrfoundation.org>
+Architecture: all
+Version: 0.21.0-1
+Replaces: python3-rosdep (<< 0.18.0)
+Depends: python3-catkin-pkg, python3-rosdistro, python3-rospkg, python3-yaml, python3:any (>= 3.4~), ca-certificates, python3-rospkg-modules (>= 1.3.0), python3-catkin-pkg-modules (>= 0.4.0), python3-rosdistro-modules (>= 0.7.5), sudo
+Conflicts: python3-rosdep (<< 0.18.0), python3-rosdep2
+Filename: pool/main/p/python3-rosdep-modules/python3-rosdep-modules_0.21.0-1_all.deb
+Size: 51560
+MD5sum: e40aec87896928e9e78d4b42edb12764
+SHA1: 2a0f11a44c192b540fbeb2a97d260262e12e30d0
+SHA256: 924ca92e4c30cef868d5ad42527fcf9a6989bec4419c80419e251b117d88aad0
+SHA512: e4a1ed9d81236e34df33ad49e1b7bc84f8c0e4247ef16e629a1ed91fe74845dbf91611dcdcf292207b7998d655a1ac7dc9d164b8763f7f5fc93f2b79927d9723
+Description: rosdep package manager abstraction tool for ROS
+ Command-line tool for installing system dependencies on a variety of platforms.
+Homepage: http://wiki.ros.org/rosdep
+
+Package: python3-rosdistro
+Priority: optional
+Section: python
+Installed-Size: 39
+Maintainer: Wim Meeussen, Dirk Thomas <wim@hidof.com, dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.9.0-100
+Depends: python3-pkg-resources, python3-yaml, python3:any (>= 3.4~), ca-certificates, python3-rosdistro-modules (>= 0.9.0), python3-setuptools
+Conflicts: python-rosdistro
+Filename: pool/main/p/python3-rosdistro/python3-rosdistro_0.9.0-100_all.deb
+Size: 6384
+MD5sum: 2dd841c803682107366474f4a54fe233
+SHA1: 9790b3cd57c1b0974cdb1db8746723a5014ee53e
+SHA256: 01244d939c99ed8eabd0e037749109de421576b304cdf388fb6388c5ff795b74
+SHA512: 612ec7c1a2b42373b3a4b176c83a7a852de3a86f7bad864de0e9dd4a2af37e3710228f519cb85c4a09742a28b97c9fb319a4a23d8ac8a97ea25e9b86f4eea5f8
+Description: A tool to work with rosdistro files
+ A tool to work with rosdistro files
+Homepage: http://wiki.ros.org/rosdistro
+
+Package: python3-rosdistro
+Priority: optional
+Section: python
+Installed-Size: 38
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.8.3-100
+Depends: python3-pkg-resources, python3-yaml, python3:any (>= 3.4~), ca-certificates, python3-rosdistro-modules (>= 0.8.3), python3-setuptools
+Conflicts: python-rosdistro
+Filename: pool/main/p/python3-rosdistro/python3-rosdistro_0.8.3-100_all.deb
+Size: 6232
+MD5sum: 6b4d921062681d4e177a3105c2561d87
+SHA1: cfeb0b7e56bc044997a3ad5e00cac3b92a8751d2
+SHA256: 43fa12c522031dcb3dc5deea720568ec54ee997c7ff3191f9c621aa0e7af0952
+SHA512: 058306feb88bd0bf240166bd57ee77ace42a1889f8987f79eab42acaffa577f14f9d8efbf0961dea3b121edd99020b4d1d0aafd068382a33b0cf916afaca439e
+Description: A tool to work with rosdistro files
+ A tool to work with rosdistro files
+
+Package: python3-rosdistro-modules
+Priority: optional
+Section: python
+Installed-Size: 259
+Maintainer: Wim Meeussen, Dirk Thomas <wim@hidof.com, dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.9.0-1
+Replaces: python3-rosdistro (<< 0.6.0)
+Depends: python3-pkg-resources, python3-yaml, python3:any (>= 3.4~), ca-certificates, python3-catkin-pkg-modules, python3-rospkg-modules, python3-setuptools
+Conflicts: python3-rosdistro (<< 0.6.0)
+Filename: pool/main/p/python3-rosdistro-modules/python3-rosdistro-modules_0.9.0-1_all.deb
+Size: 31924
+MD5sum: 64f883d244deb137eef6682d24a33e70
+SHA1: 58ef15db22cf846944c279fd8889974c51556495
+SHA256: a7b981c174a3b30d7e84d518c3bf3f3c38d52e64b4cf7f8483765aebe465606a
+SHA512: 1cdc08aa8b4262658a8e2f6621b7da854649e08a8eb8b384605c19b91710bcaf6e1b90c9b0e76819ffbc2a91069a2a508326302d44525e287b481ea89a7c3223
+Description: A tool to work with rosdistro files
+ A tool to work with rosdistro files
+Homepage: http://wiki.ros.org/rosdistro
+
+Package: python3-rosdistro-modules
+Priority: optional
+Section: python
+Installed-Size: 258
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.8.3-1
+Replaces: python3-rosdistro (<< 0.6.0)
+Depends: python3-pkg-resources, python3-yaml, python3:any (>= 3.4~), ca-certificates, python3-catkin-pkg-modules, python3-rospkg-modules, python3-setuptools
+Conflicts: python3-rosdistro (<< 0.6.0)
+Filename: pool/main/p/python3-rosdistro-modules/python3-rosdistro-modules_0.8.3-1_all.deb
+Size: 31804
+MD5sum: 061b780e95a29b8fe054549ff4289315
+SHA1: 9d459182971db01481d3db0a2b3e7f1712110281
+SHA256: 1c986d8ad203db10dd0426d57419c80bd224f6e8ffce22cec66a029e238cdd5c
+SHA512: 3207f1bb29d9e342cf96467db01543bf3ce2f9e08fe17d2a3a3cd391219e99f3ada6928f4827f3df373411b080e21ac2db89f9ac477db93f463a1c176e4a54e8
+Description: A tool to work with rosdistro files
+ A tool to work with rosdistro files
+
+Package: python3-rosinstall-generator
+Priority: optional
+Section: python
+Installed-Size: 75
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.1.23-1
+Depends: python3:any (>= 3.6~), python3-catkin-pkg-modules (>= 0.1.28), python3-rosdistro-modules (>= 0.7.3), python3-rospkg-modules, python3-yaml
+Conflicts: python-rosinstall-generator
+Filename: pool/main/p/python3-rosinstall-generator/python3-rosinstall-generator_0.1.23-1_all.deb
+Size: 11804
+MD5sum: b8f01a493feb485a3d57d42a6557b191
+SHA1: 1f7ae24701f1985251fa3097120ede00f5b51c56
+SHA256: e0f702985eb3dfd6880c384ceb8d20b73690f3a8ccd1025198be92e816b7624c
+SHA512: d035b9d87091fd2dccbe14567e8034aec9c39ce1c58446afe981b7b784ba6f0e855baec87240aacb7c01c5f5e52d3385ec9bac9b777a8348b06c1dbbe96d138b
+Description: A tool for generating rosinstall files
+ A tool for generating rosinstall files
+Homepage: http://wiki.ros.org/rosinstall_generator
+
+Package: python3-rosinstall-generator
+Priority: optional
+Section: python
+Installed-Size: 73
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.1.22-1
+Depends: python3-catkin-pkg (>= 0.1.28), python3-pkg-resources, python3-rosdistro (>= 0.7.3), python3-rospkg, python3-yaml, python3:any (>= 3.4~)
+Conflicts: python-rosinstall-generator
+Filename: pool/main/p/python3-rosinstall-generator/python3-rosinstall-generator_0.1.22-1_all.deb
+Size: 11516
+MD5sum: b4615f24afc437e838133c5a829e33be
+SHA1: fd9a3b4cc12e05ed6058109919c6fa7749afc2af
+SHA256: 2fbbbd23536be858ae7e632b93c3c46c58502234e3a71a30c5763be073b49c48
+SHA512: 22b9d6eb2a06fb7d5560a0a425c8f4f722d508316fa16aea242c701765b34386675b605da115aa4e8f58400d12892bdb5346a09325ec7b25b46bd560e8f48fe1
+Description: A tool for generating rosinstall files
+ A tool for generating rosinstall files
+
+Package: python3-rospkg
+Priority: optional
+Section: python
+Installed-Size: 18
+Maintainer: Ken Conley <kwc@willowgarage.com>
+Architecture: all
+Version: 1.5.0-100
+Depends: python3:any (>= 3.4~), python3-rospkg-modules (>= 1.5.0)
+Conflicts: python-rospkg
+Filename: pool/main/p/python3-rospkg/python3-rospkg_1.5.0-100_all.deb
+Size: 2536
+MD5sum: 2e133c42c6f474b60055f4e664ead82e
+SHA1: 8c30cf10771268cabc0d58f59676883318257c48
+SHA256: d686ffddfa7924ca81d328ef20b07f750bd94ebd3f8aaaee040d0427e47ab58a
+SHA512: ffd42656e2fc3d7d0b46613a9d195302f445fdc4d6d7b537eb395c712376938730578d74166c5f4795b4eb2347493ef77a8f726587552489b85df605befdf412
+Description: ROS package library
+         Library for retrieving information about ROS packages and stacks.
+Homepage: http://wiki.ros.org/rospkg
+
+Package: python3-rospkg
+Priority: optional
+Section: python
+Installed-Size: 17
+Maintainer: Ken Conley <kwc@willowgarage.com>
+Architecture: all
+Version: 1.4.0-100
+Depends: python3-yaml, python3:any (>= 3.4~), python3-rospkg-modules (>= 1.4.0)
+Conflicts: python-rospkg
+Filename: pool/main/p/python3-rospkg/python3-rospkg_1.4.0-100_all.deb
+Size: 2404
+MD5sum: a9cf1212b4569288bcbb02f798bc4e05
+SHA1: 038f8f6e2532e0dac39f4a3ed7dc641487421729
+SHA256: 32c262abf4c8d0d6395713425949154f91c5f5f29fff44c223de539578d4532c
+SHA512: 56991c5ae3c06364571b1f36ce0f4b446c553f7668fe266e5f1e39fae2395764bbef9a23b86d30c933727080908f0eb8af9270d8dcf91704d51199df9c1808d9
+Description: ROS package library
+         Library for retrieving information about ROS packages and stacks.
+Homepage: http://wiki.ros.org/rospkg
+
+Package: python3-rospkg
+Priority: optional
+Section: python
+Installed-Size: 17
+Maintainer: Ken Conley <kwc@willowgarage.com>
+Architecture: all
+Version: 1.3.0-100
+Depends: python3-yaml, python3:any (>= 3.4~), python3-rospkg-modules (>= 1.3.0)
+Conflicts: python-rospkg
+Filename: pool/main/p/python3-rospkg/python3-rospkg_1.3.0-100_all.deb
+Size: 2172
+MD5sum: 91d8b119a85193ef8969fd1f6469e0da
+SHA1: 5bc26728de50346be08a1a5c8f9aca5b70686061
+SHA256: 95b3fd8f3a5570dd5efecfa8e6b768be0cfcd77e1a09419fced8bcc58312a7be
+SHA512: 37af1f175a20d06b144ca6ea45814507c0629f585f9a07455625f735ac6e0234fae79110f84a58f8c36733041ed3ab9093a4bbca4eaf29673e506df97a432a24
+Description: ROS package library
+         Library for retrieving information about ROS packages and stacks.
+
+Package: python3-rospkg-modules
+Priority: optional
+Section: python
+Installed-Size: 132
+Maintainer: Ken Conley <kwc@willowgarage.com>
+Architecture: all
+Version: 1.5.0-1
+Replaces: python3-rospkg (<< 1.1.0)
+Depends: python3:any (>= 3.4~), python3-catkin-pkg-modules, python3-distro (>= 1.4.0) | python3 (<< 3.8), python3-yaml, lsb-release
+Conflicts: python3-rospkg (<< 1.1.0)
+Filename: pool/main/p/python3-rospkg-modules/python3-rospkg-modules_1.5.0-1_all.deb
+Size: 24240
+MD5sum: 75b9164679ee2ac0ea44d21d3ceceb67
+SHA1: 049f474fa510f3f3bfb578baf89c324aeb2a9e12
+SHA256: dda61ccc7dafa1a7ca8dcc61a6de3322bc379790cea95cbf618f016aac4132bb
+SHA512: f21080689afb4f9d761a26bb2f6924fc0ffaa7fa2a56e4f275ae9e545bd7a4c6ea41465e06a847057e70f14e9b48e8748613ac77632375431e7c5da43e73e9bb
+Description: ROS package library
+         Library for retrieving information about ROS packages and stacks.
+Homepage: http://wiki.ros.org/rospkg
+
+Package: python3-rospkg-modules
+Priority: optional
+Section: python
+Installed-Size: 131
+Maintainer: Ken Conley <kwc@willowgarage.com>
+Architecture: all
+Version: 1.4.0-1
+Replaces: python3-rospkg (<< 1.1.0)
+Depends: python3-yaml, python3:any (>= 3.4~), python3-catkin-pkg-modules, python3-distro (>= 1.4.0) | python3 (<< 3.8), lsb-release
+Conflicts: python3-rospkg (<< 1.1.0)
+Filename: pool/main/p/python3-rospkg-modules/python3-rospkg-modules_1.4.0-1_all.deb
+Size: 24116
+MD5sum: 05c96e65ca9a4090482ccb3c0443a838
+SHA1: 84b05320e3e1806cf14f97cebb01fa2763acd554
+SHA256: ed758e5d1ce30cfd27d261f0df1ad1eb9bb7530c41ab93ca11cc6343a8b8d45f
+SHA512: f01f4e702f1a0e0034c008d3b2839a5dc8bd6c00200a44c614be4632071ec437b5d3d82f30ac45c58ab9615d09a022aa4c45f9ab7ad62f77eff10781e2a68c57
+Description: ROS package library
+         Library for retrieving information about ROS packages and stacks.
+Homepage: http://wiki.ros.org/rospkg
+
+Package: python3-rospkg-modules
+Priority: optional
+Section: python
+Installed-Size: 129
+Maintainer: Ken Conley <kwc@willowgarage.com>
+Architecture: all
+Version: 1.3.0-1
+Replaces: python3-rospkg (<< 1.1.0)
+Depends: python3-yaml, python3:any (>= 3.4~), python3-catkin-pkg-modules, python3-distro | python3 (<< 3.8), lsb-release
+Conflicts: python3-rospkg (<< 1.1.0)
+Filename: pool/main/p/python3-rospkg-modules/python3-rospkg-modules_1.3.0-1_all.deb
+Size: 23872
+MD5sum: d2fed288a68f361a11c2b1259894c119
+SHA1: c93bd50ae852501d399cf1666200de594a8a1005
+SHA256: 4b12bebb5411b457f5c3d6090c3ebce78b795ae6e0b7fb1baf4de9844f496517
+SHA512: 610476e9ccfb371c072f7eabccf90402c1313f5036624dcc97f3ed734747ae1a7717c01a43ee654c5d2ef62f1a01e4f79b12df23a89a274fd67f52812f2c25ab
+Description: ROS package library
+         Library for retrieving information about ROS packages and stacks.
+
+Package: python3-vcstool
+Priority: optional
+Section: python
+Installed-Size: 172
+Maintainer: Dirk Thomas <web@dirk-thomas.net>
+Architecture: all
+Version: 0.3.0-1
+Depends: python3-pkg-resources, python3-yaml, python3:any (>= 3.5~), python3-setuptools
+Conflicts: python-vcstool
+Filename: pool/main/p/python3-vcstool/python3-vcstool_0.3.0-1_all.deb
+Size: 23112
+MD5sum: cf792e719ce489a3b4415adf074ce6fc
+SHA1: 9694641a637bbb85de9328a22f71677b4bf08c72
+SHA256: 20a0f8090bbd5453ba8e14161e2ccdca18cffdf2e56dd50a7d425863b3e6e5cb
+SHA512: 5a5d569627da8041087de913304c9f5962c91c3c1894a9930d38bfa44985d44c85ff85701748b46c38663d7e0f8d3f8c6f14d406b1179397fa183a1c082a2209
+Description: vcstool provides a command line tool to invoke vcs commands
+ vcstool enables batch commands on multiple different vcs repositories. Currently it supports git, hg, svn and bzr.
+Homepage: https://github.com/dirk-thomas/vcstool
+
+Package: ros-build-essential
+Priority: optional
+Section: misc
+Installed-Size: 10
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Architecture: all
+Version: 1.0.0
+Depends: build-essential, cmake, git, python3, python3-setuptools
+Filename: pool/main/r/ros-build-essential/ros-build-essential_1.0.0_all.deb
+Size: 2260
+MD5sum: 923afea79f68f0bf220fc80fe606716e
+SHA1: bc0f3dfb17961a47d710608ca50361b366b71775
+SHA256: a8a5100285bcef843604b1374707a296afcaa971280d8e84b7d0f3a2dc0a8275
+SHA512: a4af20dfe94d290a5ccb8e22a4448febf257b7c11fb0218239d2b2cec47cb1a0704c15463ece8d2508a557b8ab272dd921a8652425f957ef4c4bf1047905dafd
+Description: Packages expected when building any ROS package
+ Variant which includes packages that are expected to be present when building
+ any ROS packages.
+Homepage: https://github.com/ros-infrastructure/infra-variants
+Multi-Arch: foreign
+
+Package: ros-dev-tools
+Priority: optional
+Section: misc
+Installed-Size: 9
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Architecture: all
+Version: 1.0.0
+Depends: ros-build-essential, python3-bloom, python3-colcon-common-extensions, python3-rosdep, python3-vcstool, wget
+Filename: pool/main/r/ros-dev-tools/ros-dev-tools_1.0.0_all.deb
+Size: 1748
+MD5sum: dee75a8917aeb6863702d9643d49986b
+SHA1: 658fc39c198929d650dc42776e8668942e7ced3c
+SHA256: e15e75580848fb59b898766fe54672aaa76fe474ade3a9d484a6828f80f08492
+SHA512: 9d146625a0b0f217f7aa5b7628c07bfa8c69bcc99b8d6c122162ac8c1412059071fd4e1d940f1e52e1de54d9935b8d2ee7c3028af15e7901d3b228ed6b5d1829
+Description: Developer Tools for ROS
+ Variant which includes packages generally useful during ROS development.
+Homepage: https://github.com/ros-infrastructure/infra-variants
+Multi-Arch: foreign
+

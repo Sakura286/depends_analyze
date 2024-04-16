@@ -1,0 +1,76 @@
+Package: python3-bloom
+Priority: optional
+Section: python
+Installed-Size: 514
+Maintainer: William Woodall <william@openrobotics.org>
+Architecture: all
+Version: 0.11.1-100
+Depends: python3:any (>= 3.4~), python3-yaml, python3-empy, python3-rosdep (>= 0.15.0), python3-rosdistro (>= 0.8.0), python3-vcstools (>= 0.1.22), python3-setuptools, python3-catkin-pkg (>= 0.4.3)
+Conflicts: python-bloom
+Filename: pool/main/p/python3-bloom/python3-bloom_0.11.1-100_all.deb
+Size: 69200
+MD5sum: f4439a566912318e019fb736ae8ad054
+SHA1: 35428b44a2f0e01e987f4029a68eb0c51cf83dc3
+SHA256: 1fa3cdca03a26e169372bd9cb52cc131f21af1a7de344fd4d27606d7e22043de
+SHA512: a519c7d182a8a4e4f6f44e5612bbc0d7f7cca4efd46ec4a157b732ef23ef27e112fd56310231bbbb8d6dac304eeea62d0ac3813a94f5c712cd7f212042be3ce9
+Description: Bloom is a release automation tool.
+ Bloom provides tools for releasing software on top of a git repository and leverages tools and patterns from git-buildpackage. Additionally, bloom leverages meta and build information from catkin (https://github.com/ros/catkin) to automate release branching and the generation of platform specific source packages, like debian's src-debs.
+Homepage: http://www.ros.org/wiki/bloom
+
+Package: python3-bloom
+Priority: optional
+Section: python
+Installed-Size: 507
+Maintainer: William Woodall <william@openrobotics.org>
+Architecture: all
+Version: 0.10.7-100
+Depends: python3-catkin-pkg (>= 0.4.3), python3-dateutil, python3-empy, python3-pkg-resources, python3-rosdep (>= 0.15.0), python3-rosdistro (>= 0.8.0), python3-vcstools (>= 0.1.22), python3-yaml, python3:any (>= 3.4~), python3-setuptools
+Conflicts: python-bloom
+Filename: pool/main/p/python3-bloom/python3-bloom_0.10.7-100_all.deb
+Size: 68404
+MD5sum: 57b775321636e445ed90736f660c5719
+SHA1: 6cc8be93ebd2d959c72e2298cbbcdcbd5d895a8c
+SHA256: 99f100ca0a289963f250fa15f9572ff6da4a30e694421839800af0ee17907993
+SHA512: c3ef809c835e6501f0971e891011093f89526f1187d29498b9a7905eed6023ea46742f7c2ddc3752c2a797eccfd2145ce09dd668da19b0ec8dcd026879c2bd47
+Description: Bloom is a release automation tool.
+ Bloom provides tools for releasing software on top of a git repository and leverages tools and patterns from git-buildpackage. Additionally, bloom leverages meta and build information from catkin (https://github.com/ros/catkin) to automate release branching and the generation of platform specific source packages, like debian's src-debs.
+Homepage: http://www.ros.org/wiki/bloom
+
+Package: python3-catkin-pkg
+Priority: optional
+Section: python
+Installed-Size: 26
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.5.2-100
+Depends: python3-dateutil, python3-docutils, python3-pkg-resources, python3-pyparsing, python3:any (>= 3.4~), python3-catkin-pkg-modules (>= 0.5.2)
+Conflicts: catkin, python-catkin-pkg
+Filename: pool/main/p/python3-catkin-pkg/python3-catkin-pkg_0.5.2-100_all.deb
+Size: 3840
+MD5sum: a03a1bbe6cf1a13092c2a6002bb42d3a
+SHA1: 52119349fb5835dd103e7a8ad22a8ffb1b5465b7
+SHA256: 89dbe81478351350a0eff26dea435a797253e38915c6bb6b1bfc2fdeb5f9caf8
+SHA512: f45de027a80f498434458f49602d439a5efd381a325639e5491a4ac0bacbc3c7c684fb0a214d0fd0158b87c50e82e880b70e272ca7985f18883b1678d4e91e89
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+Homepage: http://wiki.ros.org/catkin_pkg
+
+
+Package: python3-catkin-pkg
+Priority: optional
+Section: python
+Installed-Size: 26
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Architecture: all
+Version: 0.5.2-100
+Depends: python3-dateutil
+Conflicts: catkin, python-catkin-pkg
+Filename: pool/main/p/python3-catkin-pkg/python3-catkin-pkg_0.5.2-100_all.deb
+Size: 3840
+MD5sum: a03a1bbe6cf1a13092c2a6002bb42d3a
+SHA1: 52119349fb5835dd103e7a8ad22a8ffb1b5465b7
+SHA256: 89dbe81478351350a0eff26dea435a797253e38915c6bb6b1bfc2fdeb5f9caf8
+SHA512: f45de027a80f498434458f49602d439a5efd381a325639e5491a4ac0bacbc3c7c684fb0a214d0fd0158b87c50e82e880b70e272ca7985f18883b1678d4e91e89
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+Homepage: http://wiki.ros.org/catkin_pkg
